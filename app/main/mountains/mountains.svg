@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 1280 800" style="enable-background:new 0 0 1280 800;" xml:space="preserve">
-  <!-- sky -->
-  <g class="sky">
-    <rect width="1280" height="800"/>
-  </g>
   <!-- sun -->
   <g class="sun" style="fill: url('#sunGradient')">
     <radialGradient id="sunGradient" cx="655.1558" cy="309.6623" r="97.1039" gradientUnits="userSpaceOnUse">
