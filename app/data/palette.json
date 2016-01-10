@@ -1,0 +1,42 @@
+[
+  {
+    "color": "rgb(0,0,40)",
+    "id": "n1",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#529EB8",
+          "id": "n2",
+          "editable": true
+        },
+        {
+          "color": "#00001E",
+          "id": "n3",
+          "editable": true
+        },
+        {
+          "color": "#006c86",
+          "id": "n4",
+          "editable": true
+        },
+        {
+          "color": "#00879c",
+          "id": "n5",
+          "editable": true
+        },
+        {
+          "color": "#89b6d0",
+          "id": "n6",
+          "editable": true
+        },
+        {
+          "color": "#aed1e2",
+          "id": "n7",
+          "editable": true
+        }
+      ]
+    }
+  }
+]

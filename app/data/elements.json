@@ -1,0 +1,37 @@
+[
+  {
+    "name": "skyNight",
+    "colorId": "n1",
+    "desc": "Il cielo di notte"
+  },
+  {
+    "name": "skyDay",
+    "colorId": "n2",
+    "desc": "Il cielo di giorno"
+  },
+  {
+    "name": "mountainsNight",
+    "colorId": "n3",
+    "desc": "Montagne di notte (tutte)"
+  },
+  {
+    "name": "mountains0",
+    "colorId": "n4",
+    "desc": "Montagne vicinissime"
+  },
+  {
+    "name": "mountains1",
+    "colorId": "n5",
+    "desc": "Montagne vicine"
+  },
+  {
+    "name": "mountains2",
+    "colorId": "n6",
+    "desc": "Montagne lontane"
+  },
+  {
+    "name": "mountains3",
+    "colorId": "n7",
+    "desc": "Montagne lontanissime"
+  }
+]
