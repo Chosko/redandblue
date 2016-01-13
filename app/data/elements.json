@@ -10,6 +10,22 @@
     "desc": "Il cielo di giorno"
   },
   {
+    "name": "cloudsNight",
+    "desc": "Le nuvole di notte"
+  },
+  {
+    "name": "sunNight",
+    "desc": "Il sole di notte, cioè all'alba"
+  },
+  {
+    "name": "sunDay",
+    "desc": "Il sole di giorno, cioè quando è alto"
+  },
+  {
+    "name": "cloudsDay",
+    "desc": "Le nuvole di giorno"
+  },
+  {
     "name": "mountainsNight",
     "colorId": "n3",
     "desc": "Montagne di notte (tutte)"
