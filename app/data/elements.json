@@ -10,6 +10,14 @@
     "desc": "Il cielo di giorno"
   },
   {
+    "name": "moon",
+    "desc": "Colore di sfondo della luna"
+  },
+  {
+    "name": "moonCraters",
+    "desc": "Colore dei crateri della luna"
+  },
+  {
     "name": "cloudsNight",
     "desc": "Le nuvole di notte"
   },
@@ -49,5 +57,73 @@
     "name": "mountains3",
     "colorId": "n7",
     "desc": "Montagne lontanissime"
+  },
+  {
+    "name": "scooterFront",
+    "desc": "La parte frontale dello scooter, che va dalla ruota al manubrio"
+  },
+  {
+    "name": "scooterTopFrontMiddle",
+    "desc": "La parte frontale alta dello scooter, immediatamente superiore al corpo centrale che sta sulla ruota"
+  },
+  {
+    "name": "scooterInner",
+    "desc": "La parte interna dello scooter, da dove si poggiano i piedi al manubrio interno"
+  },
+  {
+    "name": "scooterBackBottom",
+    "desc": "La parte posteriore dello scooter, nella metà più bassa, cioè sotto la sella"
+  },
+  {
+    "name": "scooterTopFrontTop",
+    "desc": "La parte frontale più alta dello scooter, in cima al manubrio"
+  },
+  {
+    "name": "scooterWheelTires",
+    "desc": "I pneumatici dello scooter"
+  },
+  {
+    "name": "scooterTrunk",
+    "desc": "Il bauletto dello scooter"
+  },
+  {
+    "name": "scooterSaddle",
+    "desc": "La sella dello scooter"
+  },
+  {
+    "name": "scooterWheelRim",
+    "desc": "I cerchioni dello scooter"
+  },
+  {
+    "name": "scooterWheelHub",
+    "desc": "I mozzi delle ruote dello scooter"
+  },
+  {
+    "name": "scooterMuffler",
+    "desc": "La marmitta dello scooter"
+  },
+  {
+    "name": "scooterHandlebar",
+    "desc": "Le maniglie del manubrio dello scooter"
+  },
+  {
+    "name": "scooterManLegs",
+    "desc": "Le gambe dell'omino dello scooter"
+  },
+  {
+    "name": "scooterManBody",
+    "desc": "Il corpo dell'omino dello scooter (la maglia)"
+  },
+  {
+    "name": "scooterManHelmet",
+    "desc": "Il casco dell'omino dello scooter"
+  },
+  {
+    "name": "scooterManVisor",
+    "desc": "La visiera del casco dell'omino dello scooter"
+  },
+  {
+    "name": "scooterManScarf",
+    "desc": "La sciarpa dell'omino dello scooter"
   }
 ]
