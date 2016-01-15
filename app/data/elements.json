@@ -1,129 +1,151 @@
 [
   {
-    "name": "skyNight",
-    "colorId": "n1",
-    "desc": "Il cielo di notte"
+    "name":"skyNight",
+    "colorId":"n1",
+    "desc":"Il cielo di notte"
   },
   {
-    "name": "skyDay",
-    "colorId": "n2",
-    "desc": "Il cielo di giorno"
+    "name":"skyDay",
+    "colorId":"n2",
+    "desc":"Il cielo di giorno"
   },
   {
-    "name": "moon",
-    "desc": "Colore di sfondo della luna"
+    "name":"mountainsNight",
+    "colorId":"n3",
+    "desc":"Montagne di notte (tutte)"
   },
   {
-    "name": "moonCraters",
-    "desc": "Colore dei crateri della luna"
+    "name":"mountains0",
+    "colorId":"n4",
+    "desc":"Montagne vicinissime"
   },
   {
-    "name": "cloudsNight",
-    "desc": "Le nuvole di notte"
+    "name":"mountains1",
+    "colorId":"n5",
+    "desc":"Montagne vicine"
   },
   {
-    "name": "sunNight",
-    "desc": "Il sole di notte, cioè all'alba"
+    "name":"mountains2",
+    "colorId":"n6",
+    "desc":"Montagne lontane"
   },
   {
-    "name": "sunDay",
-    "desc": "Il sole di giorno, cioè quando è alto"
+    "name":"mountains3",
+    "colorId":"n7",
+    "desc":"Montagne lontanissime"
   },
   {
-    "name": "cloudsDay",
-    "desc": "Le nuvole di giorno"
+    "name":"moon",
+    "desc":"Colore di sfondo della luna",
+    "colorId":"n25"
   },
   {
-    "name": "mountainsNight",
-    "colorId": "n3",
-    "desc": "Montagne di notte (tutte)"
+    "name":"moonCraters",
+    "desc":"Colore dei crateri della luna",
+    "colorId":"n26"
   },
   {
-    "name": "mountains0",
-    "colorId": "n4",
-    "desc": "Montagne vicinissime"
+    "name":"cloudsNight",
+    "desc":"Le nuvole di notte",
+    "colorId":"n1"
   },
   {
-    "name": "mountains1",
-    "colorId": "n5",
-    "desc": "Montagne vicine"
+    "name":"sunNight",
+    "desc":"Il sole di notte, cioè all'alba"
   },
   {
-    "name": "mountains2",
-    "colorId": "n6",
-    "desc": "Montagne lontane"
+    "name":"sunDay",
+    "desc":"Il sole di giorno, cioè quando è alto",
+    "colorId":"n25"
   },
   {
-    "name": "mountains3",
-    "colorId": "n7",
-    "desc": "Montagne lontanissime"
+    "name":"cloudsDay",
+    "desc":"Le nuvole di giorno",
+    "colorId":"n12"
   },
   {
-    "name": "scooterFront",
-    "desc": "La parte frontale dello scooter, che va dalla ruota al manubrio"
+    "name":"scooterFront",
+    "desc":"La parte frontale dello scooter, che va dalla ruota al manubrio",
+    "colorId":"n11"
   },
   {
-    "name": "scooterTopFrontMiddle",
-    "desc": "La parte frontale alta dello scooter, immediatamente superiore al corpo centrale che sta sulla ruota"
+    "name":"scooterTopFrontMiddle",
+    "desc":"La parte frontale alta dello scooter, immediatamente superiore al corpo centrale che sta sulla ruota",
+    "colorId":"n12"
   },
   {
-    "name": "scooterInner",
-    "desc": "La parte interna dello scooter, da dove si poggiano i piedi al manubrio interno"
+    "name":"scooterInner",
+    "desc":"La parte interna dello scooter, da dove si poggiano i piedi al manubrio interno",
+    "colorId":"n10"
   },
   {
-    "name": "scooterBackBottom",
-    "desc": "La parte posteriore dello scooter, nella metà più bassa, cioè sotto la sella"
+    "name":"scooterBackBottom",
+    "desc":"La parte posteriore dello scooter, nella metà più bassa, cioè sotto la sella",
+    "colorId":"n12"
   },
   {
-    "name": "scooterTopFrontTop",
-    "desc": "La parte frontale più alta dello scooter, in cima al manubrio"
+    "name":"scooterTopFrontTop",
+    "desc":"La parte frontale più alta dello scooter, in cima al manubrio",
+    "colorId":"n8"
   },
   {
-    "name": "scooterWheelTires",
-    "desc": "I pneumatici dello scooter"
+    "name":"scooterWheelTires",
+    "desc":"I pneumatici dello scooter",
+    "colorId":"n8"
   },
   {
-    "name": "scooterTrunk",
-    "desc": "Il bauletto dello scooter"
+    "name":"scooterTrunk",
+    "desc":"Il bauletto dello scooter",
+    "colorId":"n8"
   },
   {
-    "name": "scooterSaddle",
-    "desc": "La sella dello scooter"
+    "name":"scooterSaddle",
+    "desc":"La sella dello scooter",
+    "colorId":"n8"
   },
   {
-    "name": "scooterWheelRim",
-    "desc": "I cerchioni dello scooter"
+    "name":"scooterWheelRim",
+    "desc":"I cerchioni dello scooter",
+    "colorId":"n12"
   },
   {
-    "name": "scooterWheelHub",
-    "desc": "I mozzi delle ruote dello scooter"
+    "name":"scooterWheelHub",
+    "desc":"I mozzi delle ruote dello scooter",
+    "colorId":"n8"
   },
   {
-    "name": "scooterMuffler",
-    "desc": "La marmitta dello scooter"
+    "name":"scooterMuffler",
+    "desc":"La marmitta dello scooter",
+    "colorId":"n9"
   },
   {
-    "name": "scooterHandlebar",
-    "desc": "Le maniglie del manubrio dello scooter"
+    "name":"scooterHandlebar",
+    "desc":"Le maniglie del manubrio dello scooter",
+    "colorId":"n8"
   },
   {
-    "name": "scooterManLegs",
-    "desc": "Le gambe dell'omino dello scooter"
+    "name":"scooterManLegs",
+    "desc":"Le gambe dell'omino dello scooter",
+    "colorId":"n20"
   },
   {
-    "name": "scooterManBody",
-    "desc": "Il corpo dell'omino dello scooter (la maglia)"
+    "name":"scooterManBody",
+    "desc":"Il corpo dell'omino dello scooter (la maglia)",
+    "colorId":"n24"
   },
   {
-    "name": "scooterManHelmet",
-    "desc": "Il casco dell'omino dello scooter"
+    "name":"scooterManHelmet",
+    "desc":"Il casco dell'omino dello scooter",
+    "colorId":"n4"
   },
   {
-    "name": "scooterManVisor",
-    "desc": "La visiera del casco dell'omino dello scooter"
+    "name":"scooterManVisor",
+    "desc":"La visiera del casco dell'omino dello scooter",
+    "colorId":"n12"
   },
   {
-    "name": "scooterManScarf",
-    "desc": "La sciarpa dell'omino dello scooter"
+    "name":"scooterManScarf",
+    "desc":"La sciarpa dell'omino dello scooter",
+    "colorId":"n5"
   }
 ]
