@@ -147,5 +147,61 @@
     "name":"scooterManScarf",
     "desc":"La sciarpa dell'omino dello scooter",
     "colorId":"n5"
+  },
+  {
+    "name":"churchSpireCornice",
+    "desc":"Le guglie e il cornicione della chiesa"
+  },
+  {
+    "name":"churchRoofCentral",
+    "desc":"Il tetto della chiesa centrale"
+  },
+  {
+    "name":"churchRoofLateral",
+    "desc":"Il tetto della chiesa laterale (sia a destra che a sinistra)"
+  },
+  {
+    "name":"churchBellTower",
+    "desc":"Il fusto del campanile della chiesa"
+  },
+  {
+    "name":"churchBellTowerTip",
+    "desc":"La punta estrema del campanile della chiesa"
+  },
+  {
+    "name":"churchBellTowerDetails",
+    "desc":"I piccoli dettagli del campanile, cioè gli archetti e il cerchio"
+  },
+  {
+    "name":"churchFrontCentral",
+    "desc":"La parte centrale della facciata della chiesa"
+  },
+  {
+    "name":"churchFrontCentralStroke",
+    "desc":"Il bordo della parte centrale della facciata della chiesa"
+  },
+  {
+    "name":"churchFrontLateral",
+    "desc":"La parte laterale della facciata della chiesa"
+  },
+  {
+    "name":"churchSmallWindows",
+    "desc":"Il vetro delle finestre piccole della chiesa"
+  },
+  {
+    "name":"churchSmallWindowsColumns",
+    "desc":"Le colonne delle finestre piccole della chiesa"
+  },
+  {
+    "name":"churchBigWindows",
+    "desc":"Il vetro delle finestre grandi della chiesa"
+  },
+  {
+    "name":"churchBigWindowsColumns",
+    "desc":"Le colonne delle finestre grandi della chiesa"
+  },
+  {
+    "name":"churchDoors",
+    "desc":"Le porte della chiesa"
   }
 ]
