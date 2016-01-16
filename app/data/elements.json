@@ -149,8 +149,12 @@
     "colorId":"n5"
   },
   {
-    "name":"churchSpireCornice",
-    "desc":"Le guglie e il cornicione della chiesa"
+    "name":"churchSpire",
+    "desc":"Le guglie della chiesa"
+  },
+  {
+    "name":"churchCornice",
+    "desc":"I cornicioni chiesa"
   },
   {
     "name":"churchRoofCentral",
