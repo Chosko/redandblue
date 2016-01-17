@@ -1,6 +1,6 @@
 [
   {
-    "color":"rgb(0,0,40)",
+    "color":"#0f1026",
     "id":"n1",
     "editable":true,
     "right":{
@@ -115,40 +115,25 @@
     "editable":true
   },
   {
-    "color":"#EDDDC0",
+    "color":"#543710",
     "id":"n21",
+    "editable":true
+  },
+  {
+    "color":"#f2edcc",
+    "id":"n22",
     "editable":true,
     "right":{
       "type":"custom",
       "elements":[
         {
-          "color":"#D8CAB4",
-          "id":"n22",
+          "color":"#dcd7be",
+          "id":"n23",
           "editable":true
         },
         {
           "color":"#AF9F84",
-          "id":"n23",
-          "editable":true
-        }
-      ]
-    }
-  },
-  {
-    "color":"#543710",
-    "id":"n24",
-    "editable":true
-  },
-  {
-    "color":"#FFEB99",
-    "id":"n25",
-    "editable":true,
-    "right":{
-      "type":"custom",
-      "elements":[
-        {
-          "color":"#F9D595",
-          "id":"n26",
+          "id":"n24",
           "editable":true
         }
       ]

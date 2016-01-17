@@ -37,12 +37,12 @@
   {
     "name":"moon",
     "desc":"Colore di sfondo della luna",
-    "colorId":"n25"
+    "colorId":"n22"
   },
   {
     "name":"moonCraters",
     "desc":"Colore dei crateri della luna",
-    "colorId":"n26"
+    "colorId":"n23"
   },
   {
     "name":"cloudsNight",
@@ -56,7 +56,7 @@
   {
     "name":"sunDay",
     "desc":"Il sole di giorno, cioè quando è alto",
-    "colorId":"n25"
+    "colorId":"n22"
   },
   {
     "name":"cloudsDay",
@@ -131,7 +131,7 @@
   {
     "name":"scooterManBody",
     "desc":"Il corpo dell'omino dello scooter (la maglia)",
-    "colorId":"n24"
+    "colorId":"n21"
   },
   {
     "name":"scooterManHelmet",
@@ -150,62 +150,77 @@
   },
   {
     "name":"churchSpire",
-    "desc":"Le guglie della chiesa"
+    "desc":"Le guglie della chiesa",
+    "colorId":"n19"
   },
   {
     "name":"churchCornice",
-    "desc":"I cornicioni chiesa"
+    "desc":"I cornicioni chiesa",
+    "colorId":"n24"
   },
   {
     "name":"churchRoofCentral",
-    "desc":"Il tetto della chiesa centrale"
+    "desc":"Il tetto della chiesa centrale",
+    "colorId":"n17"
   },
   {
     "name":"churchRoofLateral",
-    "desc":"Il tetto della chiesa laterale (sia a destra che a sinistra)"
+    "desc":"Il tetto della chiesa laterale (sia a destra che a sinistra)",
+    "colorId":"n18"
   },
   {
     "name":"churchBellTower",
-    "desc":"Il fusto del campanile della chiesa"
+    "desc":"Il fusto del campanile della chiesa",
+    "colorId":"n22"
   },
   {
     "name":"churchBellTowerTip",
-    "desc":"La punta estrema del campanile della chiesa"
+    "desc":"La punta estrema del campanile della chiesa",
+    "colorId":"n17"
   },
   {
     "name":"churchBellTowerDetails",
-    "desc":"I piccoli dettagli del campanile, cioè gli archetti e il cerchio"
+    "desc":"I piccoli dettagli del campanile, cioè gli archetti e il cerchio",
+    "colorId":"n17"
   },
   {
     "name":"churchFrontCentral",
-    "desc":"La parte centrale della facciata della chiesa"
+    "desc":"La parte centrale della facciata della chiesa",
+    "colorId":"n22"
   },
   {
     "name":"churchFrontCentralStroke",
-    "desc":"Il bordo della parte centrale della facciata della chiesa"
+    "desc":"Il bordo della parte centrale della facciata della chiesa",
+    "colorId":"n23"
   },
   {
     "name":"churchFrontLateral",
-    "desc":"La parte laterale della facciata della chiesa"
+    "desc":"La parte laterale della facciata della chiesa",
+    "colorId":"n23"
   },
   {
     "name":"churchSmallWindows",
-    "desc":"Il vetro delle finestre piccole della chiesa"
+    "desc":"Il vetro delle finestre piccole della chiesa",
+    "colorId":"n10"
   },
   {
     "name":"churchSmallWindowsColumns",
-    "desc":"Le colonne delle finestre piccole della chiesa"
+    "desc":"Le colonne delle finestre piccole della chiesa",
+    "colorId":"n22"
   },
   {
     "name":"churchBigWindows",
-    "desc":"Il vetro delle finestre grandi della chiesa"
+    "desc":"Il vetro delle finestre grandi della chiesa",
+    "colorId":"n11"
   },
   {
     "name":"churchBigWindowsColumns",
-    "desc":"Le colonne delle finestre grandi della chiesa"
+    "desc":"Le colonne delle finestre grandi della chiesa",
+    "colorId":"n23"
   },
   {
     "name":"churchDoors",
-    "desc":"Le porte della chiesa"
+    "desc":"Le porte della chiesa",
+    "colorId":"n18"
   }
 ]
