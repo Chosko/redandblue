@@ -222,5 +222,9 @@
     "name":"churchDoors",
     "desc":"Le porte della chiesa",
     "colorId":"n18"
+  },
+  {
+    "name":"grassBackground",
+    "desc": "L'erba sullo sfondo"
   }
 ]
