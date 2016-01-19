@@ -242,5 +242,29 @@
   {
     "name":"roadStripe",
     "desc": "Le strisce della strada"
+  },
+  {
+    "name":"roadTunnelHole",
+    "desc": "Il buco della galleria"
+  },
+  {
+    "name":"treeTrunk",
+    "desc": "I tronchi degli alberi"
+  },
+  {
+    "name":"treeFoliage1",
+    "desc": "Le chiome degli alberi (1)"
+  },
+  {
+    "name":"treeFoliage2",
+    "desc": "Le chiome degli alberi (2)"
+  },
+  {
+    "name":"treeFoliage3",
+    "desc": "Le chiome degli alberi (3)"
+  },
+  {
+    "name":"treeFoliage4",
+    "desc": "Le chiome degli alberi (4)"
   }
 ]
