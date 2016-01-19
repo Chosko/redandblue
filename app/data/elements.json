@@ -226,5 +226,21 @@
   {
     "name":"grassBackground",
     "desc": "L'erba sullo sfondo"
+  },
+  {
+    "name":"roadBackground",
+    "desc": "L'asfalto della strada"
+  },
+  {
+    "name":"roadPebble",
+    "desc": "Le pietroline sulla strada"
+  },
+  {
+    "name":"roadGrass",
+    "desc": "L'erba sul bordo della strada"
+  },
+  {
+    "name":"roadStripe",
+    "desc": "Le strisce della strada"
   }
 ]
