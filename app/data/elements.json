@@ -1,270 +1,275 @@
 [
   {
-    "name":"skyNight",
-    "colorId":"n1",
-    "desc":"Il cielo di notte"
+    "name": "skyNight",
+    "colorId": "n1",
+    "desc": "Il cielo di notte"
   },
   {
-    "name":"skyDay",
-    "colorId":"n2",
-    "desc":"Il cielo di giorno"
+    "name": "skyDay",
+    "colorId": "n2",
+    "desc": "Il cielo di giorno"
   },
   {
-    "name":"mountainsNight",
-    "colorId":"n3",
-    "desc":"Montagne di notte (tutte)"
+    "name": "mountainsNight",
+    "colorId": "n3",
+    "desc": "Montagne di notte (tutte)"
   },
   {
-    "name":"mountains0",
-    "colorId":"n4",
-    "desc":"Montagne vicinissime"
+    "name": "mountains0",
+    "colorId": "n4",
+    "desc": "Montagne vicinissime"
   },
   {
-    "name":"mountains1",
-    "colorId":"n5",
-    "desc":"Montagne vicine"
+    "name": "mountains1",
+    "colorId": "n5",
+    "desc": "Montagne vicine"
   },
   {
-    "name":"mountains2",
-    "colorId":"n6",
-    "desc":"Montagne lontane"
+    "name": "mountains2",
+    "colorId": "n6",
+    "desc": "Montagne lontane"
   },
   {
-    "name":"mountains3",
-    "colorId":"n7",
-    "desc":"Montagne lontanissime"
+    "name": "mountains3",
+    "colorId": "n7",
+    "desc": "Montagne lontanissime"
   },
   {
-    "name":"moon",
-    "desc":"Colore di sfondo della luna",
-    "colorId":"n22"
+    "name": "moon",
+    "desc": "Colore di sfondo della luna",
+    "colorId": "n22"
   },
   {
-    "name":"moonCraters",
-    "desc":"Colore dei crateri della luna",
-    "colorId":"n23"
+    "name": "moonCraters",
+    "desc": "Colore dei crateri della luna",
+    "colorId": "n23"
   },
   {
-    "name":"cloudsNight",
-    "desc":"Le nuvole di notte",
-    "colorId":"n1"
+    "name": "cloudsNight",
+    "desc": "Le nuvole di notte",
+    "colorId": "n1"
   },
   {
-    "name":"sunNight",
-    "desc":"Il sole di notte, cioè all'alba"
+    "name": "sunNight",
+    "desc": "Il sole di notte, cioè all'alba"
   },
   {
-    "name":"sunDay",
-    "desc":"Il sole di giorno, cioè quando è alto",
-    "colorId":"n22"
+    "name": "sunDay",
+    "desc": "Il sole di giorno, cioè quando è alto",
+    "colorId": "n22"
   },
   {
-    "name":"cloudsDay",
-    "desc":"Le nuvole di giorno",
-    "colorId":"n12"
+    "name": "cloudsDay",
+    "desc": "Le nuvole di giorno",
+    "colorId": "n12"
   },
   {
-    "name":"scooterFront",
-    "desc":"La parte frontale dello scooter, che va dalla ruota al manubrio",
-    "colorId":"n11"
+    "name": "scooterFront",
+    "desc": "La parte frontale dello scooter, che va dalla ruota al manubrio",
+    "colorId": "n11"
   },
   {
-    "name":"scooterTopFrontMiddle",
-    "desc":"La parte frontale alta dello scooter, immediatamente superiore al corpo centrale che sta sulla ruota",
-    "colorId":"n12"
+    "name": "scooterTopFrontMiddle",
+    "desc": "La parte frontale alta dello scooter, immediatamente superiore al corpo centrale che sta sulla ruota",
+    "colorId": "n12"
   },
   {
-    "name":"scooterInner",
-    "desc":"La parte interna dello scooter, da dove si poggiano i piedi al manubrio interno",
-    "colorId":"n10"
+    "name": "scooterInner",
+    "desc": "La parte interna dello scooter, da dove si poggiano i piedi al manubrio interno",
+    "colorId": "n10"
   },
   {
-    "name":"scooterBackBottom",
-    "desc":"La parte posteriore dello scooter, nella metà più bassa, cioè sotto la sella",
-    "colorId":"n12"
+    "name": "scooterBackBottom",
+    "desc": "La parte posteriore dello scooter, nella metà più bassa, cioè sotto la sella",
+    "colorId": "n12"
   },
   {
-    "name":"scooterTopFrontTop",
-    "desc":"La parte frontale più alta dello scooter, in cima al manubrio",
-    "colorId":"n8"
+    "name": "scooterTopFrontTop",
+    "desc": "La parte frontale più alta dello scooter, in cima al manubrio",
+    "colorId": "n8"
   },
   {
-    "name":"scooterWheelTires",
-    "desc":"I pneumatici dello scooter",
-    "colorId":"n8"
+    "name": "scooterWheelTires",
+    "desc": "I pneumatici dello scooter",
+    "colorId": "n8"
   },
   {
-    "name":"scooterTrunk",
-    "desc":"Il bauletto dello scooter",
-    "colorId":"n8"
+    "name": "scooterTrunk",
+    "desc": "Il bauletto dello scooter",
+    "colorId": "n8"
   },
   {
-    "name":"scooterSaddle",
-    "desc":"La sella dello scooter",
-    "colorId":"n8"
+    "name": "scooterSaddle",
+    "desc": "La sella dello scooter",
+    "colorId": "n8"
   },
   {
-    "name":"scooterWheelRim",
-    "desc":"I cerchioni dello scooter",
-    "colorId":"n12"
+    "name": "scooterWheelRim",
+    "desc": "I cerchioni dello scooter",
+    "colorId": "n12"
   },
   {
-    "name":"scooterWheelHub",
-    "desc":"I mozzi delle ruote dello scooter",
-    "colorId":"n8"
+    "name": "scooterWheelHub",
+    "desc": "I mozzi delle ruote dello scooter",
+    "colorId": "n8"
   },
   {
-    "name":"scooterMuffler",
-    "desc":"La marmitta dello scooter",
-    "colorId":"n9"
+    "name": "scooterMuffler",
+    "desc": "La marmitta dello scooter",
+    "colorId": "n9"
   },
   {
-    "name":"scooterHandlebar",
-    "desc":"Le maniglie del manubrio dello scooter",
-    "colorId":"n8"
+    "name": "scooterHandlebar",
+    "desc": "Le maniglie del manubrio dello scooter",
+    "colorId": "n8"
   },
   {
-    "name":"scooterManLegs",
-    "desc":"Le gambe dell'omino dello scooter",
-    "colorId":"n20"
+    "name": "scooterManLegs",
+    "desc": "Le gambe dell'omino dello scooter",
+    "colorId": "n20"
   },
   {
-    "name":"scooterManBody",
-    "desc":"Il corpo dell'omino dello scooter (la maglia)",
-    "colorId":"n21"
+    "name": "scooterManBody",
+    "desc": "Il corpo dell'omino dello scooter (la maglia)",
+    "colorId": "n21"
   },
   {
-    "name":"scooterManHelmet",
-    "desc":"Il casco dell'omino dello scooter",
-    "colorId":"n4"
+    "name": "scooterManHelmet",
+    "desc": "Il casco dell'omino dello scooter",
+    "colorId": "n4"
   },
   {
-    "name":"scooterManVisor",
-    "desc":"La visiera del casco dell'omino dello scooter",
-    "colorId":"n12"
+    "name": "scooterManVisor",
+    "desc": "La visiera del casco dell'omino dello scooter",
+    "colorId": "n12"
   },
   {
-    "name":"scooterManScarf",
-    "desc":"La sciarpa dell'omino dello scooter",
-    "colorId":"n5"
+    "name": "scooterManScarf",
+    "desc": "La sciarpa dell'omino dello scooter",
+    "colorId": "n5"
   },
   {
-    "name":"churchSpire",
-    "desc":"Le guglie della chiesa",
-    "colorId":"n19"
+    "name": "churchSpire",
+    "desc": "Le guglie della chiesa",
+    "colorId": "n19"
   },
   {
-    "name":"churchCornice",
-    "desc":"I cornicioni chiesa",
-    "colorId":"n24"
+    "name": "churchCornice",
+    "desc": "I cornicioni chiesa",
+    "colorId": "n24"
   },
   {
-    "name":"churchRoofCentral",
-    "desc":"Il tetto della chiesa centrale",
-    "colorId":"n17"
+    "name": "churchRoofCentral",
+    "desc": "Il tetto della chiesa centrale",
+    "colorId": "n17"
   },
   {
-    "name":"churchRoofLateral",
-    "desc":"Il tetto della chiesa laterale (sia a destra che a sinistra)",
-    "colorId":"n18"
+    "name": "churchRoofLateral",
+    "desc": "Il tetto della chiesa laterale (sia a destra che a sinistra)",
+    "colorId": "n18"
   },
   {
-    "name":"churchBellTower",
-    "desc":"Il fusto del campanile della chiesa",
-    "colorId":"n22"
+    "name": "churchBellTower",
+    "desc": "Il fusto del campanile della chiesa",
+    "colorId": "n22"
   },
   {
-    "name":"churchBellTowerTip",
-    "desc":"La punta estrema del campanile della chiesa",
-    "colorId":"n17"
+    "name": "churchBellTowerTip",
+    "desc": "La punta estrema del campanile della chiesa",
+    "colorId": "n17"
   },
   {
-    "name":"churchBellTowerDetails",
-    "desc":"I piccoli dettagli del campanile, cioè gli archetti e il cerchio",
-    "colorId":"n17"
+    "name": "churchBellTowerDetails",
+    "desc": "I piccoli dettagli del campanile, cioè gli archetti e il cerchio",
+    "colorId": "n17"
   },
   {
-    "name":"churchFrontCentral",
-    "desc":"La parte centrale della facciata della chiesa",
-    "colorId":"n22"
+    "name": "churchFrontCentral",
+    "desc": "La parte centrale della facciata della chiesa",
+    "colorId": "n22"
   },
   {
-    "name":"churchFrontCentralStroke",
-    "desc":"Il bordo della parte centrale della facciata della chiesa",
-    "colorId":"n23"
+    "name": "churchFrontCentralStroke",
+    "desc": "Il bordo della parte centrale della facciata della chiesa",
+    "colorId": "n23"
   },
   {
-    "name":"churchFrontLateral",
-    "desc":"La parte laterale della facciata della chiesa",
-    "colorId":"n23"
+    "name": "churchFrontLateral",
+    "desc": "La parte laterale della facciata della chiesa",
+    "colorId": "n23"
   },
   {
-    "name":"churchSmallWindows",
-    "desc":"Il vetro delle finestre piccole della chiesa",
-    "colorId":"n10"
+    "name": "churchSmallWindows",
+    "desc": "Il vetro delle finestre piccole della chiesa",
+    "colorId": "n10"
   },
   {
-    "name":"churchSmallWindowsColumns",
-    "desc":"Le colonne delle finestre piccole della chiesa",
-    "colorId":"n22"
+    "name": "churchSmallWindowsColumns",
+    "desc": "Le colonne delle finestre piccole della chiesa",
+    "colorId": "n22"
   },
   {
-    "name":"churchBigWindows",
-    "desc":"Il vetro delle finestre grandi della chiesa",
-    "colorId":"n11"
+    "name": "churchBigWindows",
+    "desc": "Il vetro delle finestre grandi della chiesa",
+    "colorId": "n11"
   },
   {
-    "name":"churchBigWindowsColumns",
-    "desc":"Le colonne delle finestre grandi della chiesa",
-    "colorId":"n23"
+    "name": "churchBigWindowsColumns",
+    "desc": "Le colonne delle finestre grandi della chiesa",
+    "colorId": "n23"
   },
   {
-    "name":"churchDoors",
-    "desc":"Le porte della chiesa",
-    "colorId":"n18"
+    "name": "churchDoors",
+    "desc": "Le porte della chiesa",
+    "colorId": "n18"
   },
   {
-    "name":"grassBackground",
+    "name": "churchSpireCornice",
+    "desc": "Le guglie e il cornicione della chiesa",
+    "colorId": "n24"
+  },
+  {
+    "name": "grassBackground",
     "desc": "L'erba sullo sfondo"
   },
   {
-    "name":"roadBackground",
+    "name": "roadBackground",
     "desc": "L'asfalto della strada"
   },
   {
-    "name":"roadPebble",
+    "name": "roadPebble",
     "desc": "Le pietroline sulla strada"
   },
   {
-    "name":"roadGrass",
+    "name": "roadGrass",
     "desc": "L'erba sul bordo della strada"
   },
   {
-    "name":"roadStripe",
+    "name": "roadStripe",
     "desc": "Le strisce della strada"
   },
   {
-    "name":"roadTunnelHole",
+    "name": "roadTunnelHole",
     "desc": "Il buco della galleria"
   },
   {
-    "name":"treeTrunk",
+    "name": "treeTrunk",
     "desc": "I tronchi degli alberi"
   },
   {
-    "name":"treeFoliage1",
+    "name": "treeFoliage1",
     "desc": "Le chiome degli alberi (1)"
   },
   {
-    "name":"treeFoliage2",
+    "name": "treeFoliage2",
     "desc": "Le chiome degli alberi (2)"
   },
   {
-    "name":"treeFoliage3",
+    "name": "treeFoliage3",
     "desc": "Le chiome degli alberi (3)"
   },
   {
-    "name":"treeFoliage4",
+    "name": "treeFoliage4",
     "desc": "Le chiome degli alberi (4)"
   }
 ]

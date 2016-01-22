@@ -1,140 +1,170 @@
 [
   {
-    "color":"#0f1026",
-    "id":"n1",
-    "editable":true,
-    "right":{
-      "type":"custom",
-      "elements":[
+    "color": "#0f1026",
+    "id": "n1",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
         {
-          "color":"#529eb8",
-          "id":"n2",
-          "editable":true
+          "color": "#529eb8",
+          "id": "n2",
+          "editable": true
         },
         {
-          "color":"#00001e",
-          "id":"n3",
-          "editable":true
+          "color": "#00001e",
+          "id": "n3",
+          "editable": true
         },
         {
-          "color":"#006c86",
-          "id":"n4",
-          "editable":true
+          "color": "#006c86",
+          "id": "n4",
+          "editable": true
         },
         {
-          "color":"#00879c",
-          "id":"n5",
-          "editable":true
+          "color": "#00879c",
+          "id": "n5",
+          "editable": true
         },
         {
-          "color":"#89b6d0",
-          "id":"n6",
-          "editable":true
+          "color": "#89b6d0",
+          "id": "n6",
+          "editable": true
         },
         {
-          "color":"#aed1e2",
-          "id":"n7",
-          "editable":true
+          "color": "#aed1e2",
+          "id": "n7",
+          "editable": true
         }
       ]
     }
   },
   {
-    "color":"#021216",
-    "id":"n8",
-    "editable":true,
-    "right":{
-      "type":"custom",
-      "elements":[
+    "color": "#021216",
+    "id": "n8",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
         {
-          "color":"#22393d",
-          "id":"n9",
-          "editable":true
+          "color": "#22393d",
+          "id": "n9",
+          "editable": true
         },
         {
-          "color":"#859599",
-          "id":"n10",
-          "editable":true
+          "color": "#859599",
+          "id": "n10",
+          "editable": true
         },
         {
-          "color":"#b1c4c9",
-          "id":"n11",
-          "editable":true
+          "color": "#b1c4c9",
+          "id": "n11",
+          "editable": true
         },
         {
-          "color":"#e3faff",
-          "id":"n12",
-          "editable":true
+          "color": "#e3faff",
+          "id": "n12",
+          "editable": true
         },
         {
-          "color":"#536867",
-          "id":"n13",
-          "editable":true
+          "color": "#536867",
+          "id": "n13",
+          "editable": true,
+          "down": {
+            "type": "custom",
+            "elements": [
+              {
+                "color": "#4B5655",
+                "id": "n25",
+                "editable": true
+              }
+            ]
+          }
         }
       ]
     }
   },
   {
-    "color":"#4f0000",
-    "id":"n14",
-    "editable":true,
-    "right":{
-      "type":"custom",
-      "elements":[
+    "color": "#4f0000",
+    "id": "n14",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
         {
-          "color":"#840000",
-          "id":"n15",
-          "editable":true
+          "color": "#840000",
+          "id": "n15",
+          "editable": true
         },
         {
-          "color":"#a50000",
-          "id":"n16",
-          "editable":true
+          "color": "#a50000",
+          "id": "n16",
+          "editable": true
         },
         {
-          "color":"#512E2E",
-          "id":"n17",
-          "editable":true
+          "color": "#512E2E",
+          "id": "n17",
+          "editable": true
         },
         {
-          "color":"#723E3E",
-          "id":"n18",
-          "editable":true
+          "color": "#723E3E",
+          "id": "n18",
+          "editable": true
         },
         {
-          "color":"#352020",
-          "id":"n19",
-          "editable":true
+          "color": "#352020",
+          "id": "n19",
+          "editable": true
         }
       ]
     }
   },
   {
-    "color":"#619309",
-    "id":"n20",
-    "editable":true
-  },
-  {
-    "color":"#543710",
-    "id":"n21",
-    "editable":true
-  },
-  {
-    "color":"#f2edcc",
-    "id":"n22",
-    "editable":true,
-    "right":{
-      "type":"custom",
-      "elements":[
+    "color": "#619309",
+    "id": "n20",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
         {
-          "color":"#dcd7be",
-          "id":"n23",
-          "editable":true
+          "color": "#375305",
+          "id": "n29",
+          "editable": true
         },
         {
-          "color":"#AF9F84",
-          "id":"n24",
-          "editable":true
+          "color": "#263A04",
+          "id": "n30",
+          "editable": true
+        },
+        {
+          "color": "#69A00A",
+          "id": "n31",
+          "editable": true
+        }
+      ]
+    }
+  },
+  {
+    "color": "#543710",
+    "id": "n21",
+    "editable": true
+  },
+  {
+    "color": "#f2edcc",
+    "id": "n22",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#dcd7be",
+          "id": "n23",
+          "editable": true
+        },
+        {
+          "color": "#AF9F84",
+          "id": "n24",
+          "editable": true
         }
       ]
     }
