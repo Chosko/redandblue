@@ -40,46 +40,51 @@
     }
   },
   {
-    "color": "#021216",
+    "color": "#859599",
+    "id": "n32",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#b1c4c9",
+          "id": "n33",
+          "editable": true
+        },
+        {
+          "color": "#e3faff",
+          "id": "n34",
+          "editable": true
+        }
+      ]
+    }
+  },
+  {
+    "color": "#161616",
     "id": "n8",
     "editable": true,
     "right": {
       "type": "custom",
       "elements": [
         {
-          "color": "#22393d",
-          "id": "n9",
-          "editable": true
-        },
-        {
-          "color": "#859599",
+          "color": "#939393",
           "id": "n10",
           "editable": true
         },
         {
-          "color": "#b1c4c9",
+          "color": "#ADADAD",
           "id": "n11",
           "editable": true
         },
         {
-          "color": "#e3faff",
+          "color": "#dfdfdf",
           "id": "n12",
           "editable": true
         },
         {
-          "color": "#536867",
+          "color": "#535353",
           "id": "n13",
-          "editable": true,
-          "down": {
-            "type": "custom",
-            "elements": [
-              {
-                "color": "#4B5655",
-                "id": "n25",
-                "editable": true
-              }
-            ]
-          }
+          "editable": true
         }
       ]
     }
@@ -137,8 +142,13 @@
           "editable": true
         },
         {
-          "color": "#69A00A",
+          "color": "#506D00",
           "id": "n31",
+          "editable": true
+        },
+        {
+          "color": "#9DBF0D",
+          "id": "n35",
           "editable": true
         }
       ]

@@ -51,7 +51,8 @@
   },
   {
     "name": "sunNight",
-    "desc": "Il sole di notte, cioè all'alba"
+    "desc": "Il sole di notte, cioè all'alba",
+    "colorId": "n16"
   },
   {
     "name": "sunDay",
@@ -61,7 +62,7 @@
   {
     "name": "cloudsDay",
     "desc": "Le nuvole di giorno",
-    "colorId": "n12"
+    "colorId": "n34"
   },
   {
     "name": "scooterFront",
@@ -116,7 +117,7 @@
   {
     "name": "scooterMuffler",
     "desc": "La marmitta dello scooter",
-    "colorId": "n9"
+    "colorId": "n10"
   },
   {
     "name": "scooterHandlebar",
@@ -126,12 +127,12 @@
   {
     "name": "scooterManLegs",
     "desc": "Le gambe dell'omino dello scooter",
-    "colorId": "n20"
+    "colorId": "n15"
   },
   {
     "name": "scooterManBody",
     "desc": "Il corpo dell'omino dello scooter (la maglia)",
-    "colorId": "n21"
+    "colorId": "n14"
   },
   {
     "name": "scooterManHelmet",
@@ -201,7 +202,7 @@
   {
     "name": "churchSmallWindows",
     "desc": "Il vetro delle finestre piccole della chiesa",
-    "colorId": "n10"
+    "colorId": "n32"
   },
   {
     "name": "churchSmallWindowsColumns",
@@ -211,7 +212,7 @@
   {
     "name": "churchBigWindows",
     "desc": "Il vetro delle finestre grandi della chiesa",
-    "colorId": "n11"
+    "colorId": "n33"
   },
   {
     "name": "churchBigWindowsColumns",
@@ -230,46 +231,57 @@
   },
   {
     "name": "grassBackground",
-    "desc": "L'erba sullo sfondo"
+    "desc": "L'erba sullo sfondo",
+    "colorId": "n20"
   },
   {
     "name": "roadBackground",
-    "desc": "L'asfalto della strada"
+    "desc": "L'asfalto della strada",
+    "colorId": "n13"
   },
   {
     "name": "roadPebble",
-    "desc": "Le pietroline sulla strada"
+    "desc": "Le pietroline sulla strada",
+    "colorId": "n19"
   },
   {
     "name": "roadGrass",
-    "desc": "L'erba sul bordo della strada"
+    "desc": "L'erba sul bordo della strada",
+    "colorId": "n35"
   },
   {
     "name": "roadStripe",
-    "desc": "Le strisce della strada"
+    "desc": "Le strisce della strada",
+    "colorId": "n34"
   },
   {
     "name": "roadTunnelHole",
-    "desc": "Il buco della galleria"
+    "desc": "Il buco della galleria",
+    "colorId": "n19"
   },
   {
     "name": "treeTrunk",
-    "desc": "I tronchi degli alberi"
+    "desc": "I tronchi degli alberi",
+    "colorId": "n21"
   },
   {
     "name": "treeFoliage1",
-    "desc": "Le chiome degli alberi (1)"
+    "desc": "Le chiome degli alberi (1)",
+    "colorId": "n29"
   },
   {
     "name": "treeFoliage2",
-    "desc": "Le chiome degli alberi (2)"
+    "desc": "Le chiome degli alberi (2)",
+    "colorId": "n29"
   },
   {
     "name": "treeFoliage3",
-    "desc": "Le chiome degli alberi (3)"
+    "desc": "Le chiome degli alberi (3)",
+    "colorId": "n31"
   },
   {
     "name": "treeFoliage4",
-    "desc": "Le chiome degli alberi (4)"
+    "desc": "Le chiome degli alberi (4)",
+    "colorId": "n30"
   }
 ]
