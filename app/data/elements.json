@@ -150,6 +150,46 @@
     "colorId": "n5"
   },
   {
+    "name": "carGlass",
+    "desc": "Il vetro della macchina"
+  },
+  {
+    "name": "carBody1",
+    "desc": "La carrozzeria della macchina (1)"
+  },
+  {
+    "name": "carBody2",
+    "desc": "La carrozzeria della macchina (2)"
+  },
+  {
+    "name": "carBody3",
+    "desc": "La carrozzeria della macchina (3)"
+  },
+  {
+    "name": "carHandle",
+    "desc": "La maniglia della macchina"
+  },
+  {
+    "name": "carSpot",
+    "desc": "Il fanale della macchina"
+  },
+  {
+    "name": "carAntenna",
+    "desc": "L'antenna della macchina"
+  },
+  {
+    "name": "carMirror",
+    "desc": "Lo specchietto della macchina"
+  },
+  {
+    "name": "carWheelTires",
+    "desc": "I pneumatici delle ruote della macchina"
+  },
+  {
+    "name": "carWheelRim",
+    "desc": "I cerchioni delle ruote della macchina"
+  },
+  {
     "name": "churchSpire",
     "desc": "Le guglie della chiesa",
     "colorId": "n19"
