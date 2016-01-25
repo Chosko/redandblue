@@ -323,5 +323,9 @@
     "name": "treeFoliage4",
     "desc": "Le chiome degli alberi (4)",
     "colorId": "n30"
+  },
+  {
+    "name": "treeCornice",
+    "desc": "Le chiome degli alberi della cornice (subito sotto le montagne)"
   }
 ]
