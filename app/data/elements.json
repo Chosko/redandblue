@@ -150,6 +150,42 @@
     "colorId": "n5"
   },
   {
+    "name": "scooterSuspensions",
+    "desc": "Le sospensioni dello scooter"
+  },
+  {
+    "name": "scooterFenders",
+    "desc": "I parafanghi dello scooter"
+  },
+  {
+    "name": "scooterSpot",
+    "desc": "Il fanale dello scooter"
+  },
+  {
+    "name": "scooterFork",
+    "desc": "La forcella dello scooter"
+  },
+  {
+    "name": "scooterManHands",
+    "desc": "Le mani dell'omino dello scooter"
+  },
+  {
+    "name": "scooterBlinker",
+    "desc": "Le freccie dello scooter"
+  },
+  {
+    "name": "sidecarWomanBody",
+    "desc": "La maglia della donna sul sidecar"
+  },
+  {
+    "name": "sidecarWomanHelmet",
+    "desc": "Il casco della donna sul sidecar"
+  },
+  {
+    "name": "sidecarBodyCenter",
+    "desc": "Il centro della carrozzeria del sidecar"
+  },
+  {
     "name": "carGlass",
     "desc": "Il vetro della macchina",
     "colorId": "n7"
