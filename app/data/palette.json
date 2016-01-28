@@ -134,7 +134,17 @@
         {
           "color": "#375305",
           "id": "n29",
-          "editable": true
+          "editable": true,
+          "down": {
+            "type": "custom",
+            "elements": [
+              {
+                "color": "#0A3A14",
+                "id": "n36",
+                "editable": true
+              }
+            ]
+          }
         },
         {
           "color": "#263A04",

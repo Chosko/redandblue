@@ -151,43 +151,53 @@
   },
   {
     "name": "carGlass",
-    "desc": "Il vetro della macchina"
+    "desc": "Il vetro della macchina",
+    "colorId": "n7"
   },
   {
     "name": "carBody1",
-    "desc": "La carrozzeria della macchina (1)"
+    "desc": "La carrozzeria della macchina (1)",
+    "colorId": "n16"
   },
   {
     "name": "carBody2",
-    "desc": "La carrozzeria della macchina (2)"
+    "desc": "La carrozzeria della macchina (2)",
+    "colorId": "n15"
   },
   {
     "name": "carBody3",
-    "desc": "La carrozzeria della macchina (3)"
+    "desc": "La carrozzeria della macchina (3)",
+    "colorId": "n14"
   },
   {
     "name": "carHandle",
-    "desc": "La maniglia della macchina"
+    "desc": "La maniglia della macchina",
+    "colorId": "n19"
   },
   {
     "name": "carSpot",
-    "desc": "Il fanale della macchina"
+    "desc": "Il fanale della macchina",
+    "colorId": "n22"
   },
   {
     "name": "carAntenna",
-    "desc": "L'antenna della macchina"
+    "desc": "L'antenna della macchina",
+    "colorId": "n19"
   },
   {
     "name": "carMirror",
-    "desc": "Lo specchietto della macchina"
+    "desc": "Lo specchietto della macchina",
+    "colorId": "n15"
   },
   {
     "name": "carWheelTires",
-    "desc": "I pneumatici delle ruote della macchina"
+    "desc": "I pneumatici delle ruote della macchina",
+    "colorId": "n8"
   },
   {
     "name": "carWheelRim",
-    "desc": "I cerchioni delle ruote della macchina"
+    "desc": "I cerchioni delle ruote della macchina",
+    "colorId": "n11"
   },
   {
     "name": "churchSpire",
@@ -312,7 +322,7 @@
   {
     "name": "treeFoliage2",
     "desc": "Le chiome degli alberi (2)",
-    "colorId": "n29"
+    "colorId": "n30"
   },
   {
     "name": "treeFoliage3",
@@ -321,6 +331,7 @@
   },
   {
     "name": "treeCornice",
-    "desc": "Le chiome degli alberi della cornice (subito sotto le montagne)"
+    "desc": "Le chiome degli alberi della cornice (subito sotto le montagne)",
+    "colorId": "n36"
   }
 ]
