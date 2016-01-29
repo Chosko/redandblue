@@ -369,5 +369,41 @@
     "name": "treeCornice",
     "desc": "Le chiome degli alberi della cornice (subito sotto le montagne)",
     "colorId": "n36"
+  },
+  {
+    "name": "bushRedBook",
+    "desc": "Il quaderno rosso sotto il cespuglio"
+  },
+  {
+    "name": "bushBlueBook",
+    "desc": "Il quaderno blu sotto il cespuglio"
+  },
+  {
+    "name": "bushRoots",
+    "desc": "Le radici del cespuglio"
+  },
+  {
+    "name": "bush",
+    "desc": "Il cespuglio"
+  },
+  {
+    "name": "bushTotoFaceLateral",
+    "desc": "La parte laterale del viso di Toto"
+  },
+  {
+    "name": "bushTotoFaceNose",
+    "desc": "Il naso (la riga verticale sul viso) di Toto"
+  },
+  {
+    "name": "bushTotoFaceCentral",
+    "desc": "La parte centrale del viso di toto"
+  },
+  {
+    "name": "bushTotoBeak",
+    "desc": "Il becco di Toto"
+  },
+  {
+    "name": "bushTotoEyes",
+    "desc": "Gli occhi di Toto"
   }
 ]
