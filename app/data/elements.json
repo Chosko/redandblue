@@ -15,6 +15,10 @@
     "desc": "Montagne di notte (tutte)"
   },
   {
+    "name": "mountainsNightShadows",
+    "desc": "Ombre delle montagne di notte (tutte)"
+  },
+  {
     "name": "mountains0",
     "colorId": "n4",
     "desc": "Montagne vicinissime"
@@ -33,6 +37,22 @@
     "name": "mountains3",
     "colorId": "n7",
     "desc": "Montagne lontanissime"
+  },
+  {
+    "name": "mountains0Shadows",
+    "desc": "Ombre delle montagne vicinissime"
+  },
+  {
+    "name": "mountains1Shadows",
+    "desc": "Ombre delle montagne vicine"
+  },
+  {
+    "name": "mountains2Shadows",
+    "desc": "Ombre delle montagne lontane"
+  },
+  {
+    "name": "mountains3Shadows",
+    "desc": "Ombre delle montagne lontanissime"
   },
   {
     "name": "moon",
@@ -184,6 +204,10 @@
   {
     "name": "sidecarBodyCenter",
     "desc": "Il centro della carrozzeria del sidecar"
+  },
+  {
+    "name": "sidecarBody",
+    "desc": "La carrozzeria del sidecar"
   },
   {
     "name": "carGlass",
