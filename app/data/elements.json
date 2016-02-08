@@ -364,6 +364,10 @@
     "colorId": "n21"
   },
   {
+    "name": "treeTrunkShadow",
+    "desc": "L'ombra dei tronchi degli alberi"
+  },
+  {
     "name": "treeFoliage1",
     "desc": "Le chiome degli alberi (1)",
     "colorId": "n29"
@@ -473,5 +477,33 @@
     "name": "sidecarBody",
     "desc": "La carrozzeria del sidecar",
     "colorId": "n11"
+  },
+  {
+    "name": "tableLegs",
+    "desc": "Gambe del tavolo"
+  },
+  {
+    "name": "tableBorder",
+    "desc": "Il bordo del tavolo"
+  },
+  {
+    "name": "tableFlat",
+    "desc": "Il piano del tavolo"
+  },
+  {
+    "name": "tableCenterpiece",
+    "desc": "Il centrotavola"
+  },
+  {
+    "name": "tableBroccoliVase",
+    "desc": "Il vaso del broccolo sul tavolo"
+  },
+  {
+    "name": "tableBroccoli",
+    "desc": "Il broccolo sul tavolo"
+  },
+  {
+    "name": "tableBroccoliFlower",
+    "desc": "I fiori del broccolo sul tavolo"
   }
 ]
