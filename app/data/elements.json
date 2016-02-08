@@ -15,10 +15,6 @@
     "desc": "Montagne di notte (tutte)"
   },
   {
-    "name": "mountainsNightShadows",
-    "desc": "Ombre delle montagne di notte (tutte)"
-  },
-  {
     "name": "mountains0",
     "colorId": "n4",
     "desc": "Montagne vicinissime"
@@ -37,22 +33,6 @@
     "name": "mountains3",
     "colorId": "n7",
     "desc": "Montagne lontanissime"
-  },
-  {
-    "name": "mountains0Shadows",
-    "desc": "Ombre delle montagne vicinissime"
-  },
-  {
-    "name": "mountains1Shadows",
-    "desc": "Ombre delle montagne vicine"
-  },
-  {
-    "name": "mountains2Shadows",
-    "desc": "Ombre delle montagne lontane"
-  },
-  {
-    "name": "mountains3Shadows",
-    "desc": "Ombre delle montagne lontanissime"
   },
   {
     "name": "moon",
@@ -147,12 +127,12 @@
   {
     "name": "scooterManLegs",
     "desc": "Le gambe dell'omino dello scooter",
-    "colorId": "n15"
+    "colorId": "n42"
   },
   {
     "name": "scooterManBody",
     "desc": "Il corpo dell'omino dello scooter (la maglia)",
-    "colorId": "n14"
+    "colorId": "n42"
   },
   {
     "name": "scooterManHelmet",
@@ -167,47 +147,52 @@
   {
     "name": "scooterManScarf",
     "desc": "La sciarpa dell'omino dello scooter",
-    "colorId": "n5"
+    "colorId": "n4"
   },
   {
     "name": "scooterSuspensions",
-    "desc": "Le sospensioni dello scooter"
+    "desc": "Le sospensioni dello scooter",
+    "colorId": "n8"
   },
   {
     "name": "scooterFenders",
-    "desc": "I parafanghi dello scooter"
+    "desc": "I parafanghi dello scooter",
+    "colorId": "n10"
   },
   {
     "name": "scooterSpot",
-    "desc": "Il fanale dello scooter"
+    "desc": "Il fanale dello scooter",
+    "colorId": "n34"
   },
   {
     "name": "scooterFork",
-    "desc": "La forcella dello scooter"
+    "desc": "La forcella dello scooter",
+    "colorId": "n8"
   },
   {
     "name": "scooterManHands",
-    "desc": "Le mani dell'omino dello scooter"
+    "desc": "Le mani dell'omino dello scooter",
+    "colorId": "n42"
   },
   {
     "name": "scooterBlinker",
-    "desc": "Le freccie dello scooter"
+    "desc": "Le freccie dello scooter",
+    "colorId": "n37"
   },
   {
     "name": "sidecarWomanBody",
-    "desc": "La maglia della donna sul sidecar"
+    "desc": "La maglia della donna sul sidecar",
+    "colorId": "n42"
   },
   {
     "name": "sidecarWomanHelmet",
-    "desc": "Il casco della donna sul sidecar"
+    "desc": "Il casco della donna sul sidecar",
+    "colorId": "n16"
   },
   {
     "name": "sidecarBodyCenter",
-    "desc": "Il centro della carrozzeria del sidecar"
-  },
-  {
-    "name": "sidecarBody",
-    "desc": "La carrozzeria del sidecar"
+    "desc": "Il centro della carrozzeria del sidecar",
+    "colorId": "n12"
   },
   {
     "name": "carGlass",
@@ -367,7 +352,7 @@
   {
     "name": "roadTunnelHole",
     "desc": "Il buco della galleria",
-    "colorId": "n19"
+    "colorId": "n44"
   },
   {
     "name": "treeTrunk",
@@ -390,44 +375,99 @@
     "colorId": "n31"
   },
   {
+    "name": "treeFoliage1Shadow",
+    "desc": "L'ombra delle chiome degli alberi (1)"
+  },
+  {
+    "name": "treeFoliage2Shadow",
+    "desc": "L'ombra delle chiome degli alberi (2)"
+  },
+  {
+    "name": "treeFoliage3Shadow",
+    "desc": "L'ombra delle chiome degli alberi (3)"
+  },
+  {
     "name": "treeCornice",
     "desc": "Le chiome degli alberi della cornice (subito sotto le montagne)",
     "colorId": "n36"
   },
   {
+    "name": "treeCorniceShadow",
+    "desc": "Le ombre delle chiome degli alberi della cornice (subito sotto le montagne)"
+  },
+  {
     "name": "bushRedBook",
-    "desc": "Il quaderno rosso sotto il cespuglio"
+    "desc": "Il quaderno rosso sotto il cespuglio",
+    "colorId": "n16"
   },
   {
     "name": "bushBlueBook",
-    "desc": "Il quaderno blu sotto il cespuglio"
+    "desc": "Il quaderno blu sotto il cespuglio",
+    "colorId": "n4"
   },
   {
     "name": "bushRoots",
-    "desc": "Le radici del cespuglio"
+    "desc": "Le radici del cespuglio",
+    "colorId": "n21"
   },
   {
     "name": "bush",
-    "desc": "Il cespuglio"
+    "desc": "Il cespuglio",
+    "colorId": "n29"
   },
   {
     "name": "bushTotoFaceLateral",
-    "desc": "La parte laterale del viso di Toto"
+    "desc": "La parte laterale del viso di Toto",
+    "colorId": "n24"
   },
   {
     "name": "bushTotoFaceNose",
-    "desc": "Il naso (la riga verticale sul viso) di Toto"
+    "desc": "Il naso (la riga verticale sul viso) di Toto",
+    "colorId": "n24"
   },
   {
     "name": "bushTotoFaceCentral",
-    "desc": "La parte centrale del viso di toto"
+    "desc": "La parte centrale del viso di toto",
+    "colorId": "n22"
   },
   {
     "name": "bushTotoBeak",
-    "desc": "Il becco di Toto"
+    "desc": "Il becco di Toto",
+    "colorId": "n23"
   },
   {
     "name": "bushTotoEyes",
-    "desc": "Gli occhi di Toto"
+    "desc": "Gli occhi di Toto",
+    "colorId": "n8"
+  },
+  {
+    "name": "mountainsNightShadows",
+    "desc": "Ombre delle montagne di notte (tutte)",
+    "colorId": "n4"
+  },
+  {
+    "name": "mountains0Shadows",
+    "desc": "Ombre delle montagne vicinissime",
+    "colorId": "n42"
+  },
+  {
+    "name": "mountains1Shadows",
+    "desc": "Ombre delle montagne vicine",
+    "colorId": "n41"
+  },
+  {
+    "name": "mountains2Shadows",
+    "desc": "Ombre delle montagne lontane",
+    "colorId": "n40"
+  },
+  {
+    "name": "mountains3Shadows",
+    "desc": "Ombre delle montagne lontanissime",
+    "colorId": "n39"
+  },
+  {
+    "name": "sidecarBody",
+    "desc": "La carrozzeria del sidecar",
+    "colorId": "n11"
   }
 ]
