@@ -215,6 +215,10 @@
     "colorId": "n14"
   },
   {
+    "name": "carStops",
+    "desc": "I fanali di stop della macchina"
+  },
+  {
     "name": "carHandle",
     "desc": "La maniglia della macchina",
     "colorId": "n19"
