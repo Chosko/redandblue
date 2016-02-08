@@ -184,8 +184,8 @@
             "type": "custom",
             "elements": [
               {
-                "color": "#0A3A14",
-                "id": "n36",
+                "color": "#182103",
+                "id": "n51",
                 "editable": true
               }
             ]
@@ -194,16 +194,51 @@
         {
           "color": "#263A04",
           "id": "n30",
-          "editable": true
+          "editable": true,
+          "down": {
+            "type": "custom",
+            "elements": [
+              {
+                "color": "#121903",
+                "id": "n50",
+                "editable": true
+              }
+            ]
+          }
         },
         {
           "color": "#506D00",
           "id": "n31",
-          "editable": true
+          "editable": true,
+          "down": {
+            "type": "custom",
+            "elements": [
+              {
+                "color": "#2A3308",
+                "id": "n49",
+                "editable": true
+              }
+            ]
+          }
         },
         {
           "color": "#9DBF0D",
           "id": "n35",
+          "editable": true
+        }
+      ]
+    }
+  },
+  {
+    "color": "#0A3A14",
+    "id": "n46",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#002B11",
+          "id": "n47",
           "editable": true
         }
       ]

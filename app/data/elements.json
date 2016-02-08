@@ -364,10 +364,6 @@
     "colorId": "n21"
   },
   {
-    "name": "treeTrunkShadow",
-    "desc": "L'ombra dei tronchi degli alberi"
-  },
-  {
     "name": "treeFoliage1",
     "desc": "Le chiome degli alberi (1)",
     "colorId": "n29"
@@ -384,24 +380,28 @@
   },
   {
     "name": "treeFoliage1Shadow",
-    "desc": "L'ombra delle chiome degli alberi (1)"
+    "desc": "L'ombra delle chiome degli alberi (1)",
+    "colorId": "n51"
   },
   {
     "name": "treeFoliage2Shadow",
-    "desc": "L'ombra delle chiome degli alberi (2)"
+    "desc": "L'ombra delle chiome degli alberi (2)",
+    "colorId": "n50"
   },
   {
     "name": "treeFoliage3Shadow",
-    "desc": "L'ombra delle chiome degli alberi (3)"
+    "desc": "L'ombra delle chiome degli alberi (3)",
+    "colorId": "n49"
   },
   {
     "name": "treeCornice",
     "desc": "Le chiome degli alberi della cornice (subito sotto le montagne)",
-    "colorId": "n36"
+    "colorId": "n46"
   },
   {
     "name": "treeCorniceShadow",
-    "desc": "Le ombre delle chiome degli alberi della cornice (subito sotto le montagne)"
+    "desc": "Le ombre delle chiome degli alberi della cornice (subito sotto le montagne)",
+    "colorId": "n47"
   },
   {
     "name": "bushRedBook",
@@ -479,6 +479,11 @@
     "colorId": "n11"
   },
   {
+    "name": "treeTrunkShadow",
+    "desc": "L'ombra dei tronchi degli alberi",
+    "colorId": "n19"
+  },
+  {
     "name": "tableLegs",
     "desc": "Gambe del tavolo"
   },
@@ -505,5 +510,21 @@
   {
     "name": "tableBroccoliFlower",
     "desc": "I fiori del broccolo sul tavolo"
+  },
+  {
+    "name": "tableGlass",
+    "desc": "Il vetro del bicchiere"
+  },
+  {
+    "name": "tableGlassStroke",
+    "desc": "Il contorno del vetro del bicchiere"
+  },
+  {
+    "name": "tableTulipBlue",
+    "desc": "Il tulipano blu"
+  },
+  {
+    "name": "tableTulipRed",
+    "desc": "Il tulipano rosso"
   }
 ]
