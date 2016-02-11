@@ -216,7 +216,8 @@
   },
   {
     "name": "carStops",
-    "desc": "I fanali di stop della macchina"
+    "desc": "I fanali di stop della macchina",
+    "colorId": "n15"
   },
   {
     "name": "carHandle",
@@ -485,46 +486,57 @@
   },
   {
     "name": "tableLegs",
-    "desc": "Gambe del tavolo"
+    "desc": "Gambe del tavolo",
+    "colorId": "n8"
   },
   {
     "name": "tableBorder",
-    "desc": "Il bordo del tavolo"
+    "desc": "Il bordo del tavolo",
+    "colorId": "n24"
   },
   {
     "name": "tableFlat",
-    "desc": "Il piano del tavolo"
+    "desc": "Il piano del tavolo",
+    "colorId": "n23"
   },
   {
     "name": "tableCenterpiece",
-    "desc": "Il centrotavola"
+    "desc": "Il centrotavola",
+    "colorId": "n24"
   },
   {
     "name": "tableBroccoliVase",
-    "desc": "Il vaso del broccolo sul tavolo"
+    "desc": "Il vaso del broccolo sul tavolo",
+    "colorId": "n18"
   },
   {
     "name": "tableBroccoli",
-    "desc": "Il broccolo sul tavolo"
+    "desc": "Il broccolo sul tavolo",
+    "colorId": "n29"
   },
   {
     "name": "tableBroccoliFlower",
-    "desc": "I fiori del broccolo sul tavolo"
+    "desc": "I fiori del broccolo sul tavolo",
+    "colorId": "n7"
   },
   {
     "name": "tableGlass",
-    "desc": "Il vetro del bicchiere"
+    "desc": "Il vetro del bicchiere",
+    "colorId": "n7"
   },
   {
     "name": "tableGlassStroke",
-    "desc": "Il contorno del vetro del bicchiere"
+    "desc": "Il contorno del vetro del bicchiere",
+    "colorId": "n7"
   },
   {
     "name": "tableTulipBlue",
-    "desc": "Il tulipano blu"
+    "desc": "Il tulipano blu",
+    "colorId": "n42"
   },
   {
     "name": "tableTulipRed",
-    "desc": "Il tulipano rosso"
+    "desc": "Il tulipano rosso",
+    "colorId": "n16"
   }
 ]
