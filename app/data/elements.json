@@ -538,5 +538,17 @@
     "name": "tableTulipRed",
     "desc": "Il tulipano rosso",
     "colorId": "n16"
+  },
+  {
+    "name": "tableCakeDecoration",
+    "desc": "Le decorazioni della torta"
+  },
+  {
+    "name": "tableCakeBorder",
+    "desc": "Il bordo della torta"
+  },
+  {
+    "name": "tableCakeFlat",
+    "desc": "La parte piana della torta"
   }
 ]
