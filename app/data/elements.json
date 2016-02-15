@@ -576,34 +576,42 @@
   },
   {
     "name": "churchSquare",
-    "desc": "La piazza della chiesa"
+    "desc": "La piazza della chiesa",
+    "colorId": "n22"
   },
   {
     "name": "churchSquareCarpet",
-    "desc": "Il tappeto della piazza della chiesa"
+    "desc": "Il tappeto della piazza della chiesa",
+    "colorId": "n18"
   },
   {
     "name": "churchSquareVase",
-    "desc": "I vasi della piazza della chiesa"
+    "desc": "I vasi della piazza della chiesa",
+    "colorId": "n34"
   },
   {
     "name": "churchSquareVaseStrip",
-    "desc": "La striscia sui vasi della piazza della chiesa"
+    "desc": "La striscia sui vasi della piazza della chiesa",
+    "colorId": "n31"
   },
   {
     "name": "churchSquareVaseStrip2",
-    "desc": "L'ombra della striscia sui vasi della piazza della chiesa"
+    "desc": "L'ombra della striscia sui vasi della piazza della chiesa",
+    "colorId": "n49"
   },
   {
     "name": "churchSquareBush",
-    "desc": "Le composizioni della piazza della chiesa"
+    "desc": "Le composizioni della piazza della chiesa",
+    "colorId": "n29"
   },
   {
     "name": "churchSquareFlowers",
-    "desc": "I fiori della piazza della chiesa"
+    "desc": "I fiori della piazza della chiesa",
+    "colorId": "n53"
   },
   {
     "name": "churchSquareVaseStroke",
-    "desc": "Il bordo dei vasi della piazza della chiesa"
+    "desc": "Il bordo dei vasi della piazza della chiesa",
+    "colorId": "n33"
   }
 ]
