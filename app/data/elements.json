@@ -202,17 +202,17 @@
   {
     "name": "carBody1",
     "desc": "La carrozzeria della macchina (1)",
-    "colorId": "n16"
+    "colorId": "n12"
   },
   {
     "name": "carBody2",
     "desc": "La carrozzeria della macchina (2)",
-    "colorId": "n15"
+    "colorId": "n11"
   },
   {
     "name": "carBody3",
     "desc": "La carrozzeria della macchina (3)",
-    "colorId": "n14"
+    "colorId": "n10"
   },
   {
     "name": "carStops",
@@ -227,7 +227,7 @@
   {
     "name": "carSpot",
     "desc": "Il fanale della macchina",
-    "colorId": "n22"
+    "colorId": "n34"
   },
   {
     "name": "carAntenna",
@@ -237,7 +237,7 @@
   {
     "name": "carMirror",
     "desc": "Lo specchietto della macchina",
-    "colorId": "n15"
+    "colorId": "n11"
   },
   {
     "name": "carWheelTires",
@@ -541,30 +541,37 @@
   },
   {
     "name": "tableCakeDecoration",
-    "desc": "Le decorazioni della torta"
+    "desc": "Le decorazioni della torta",
+    "colorId": "n37"
   },
   {
     "name": "tableCakeBorder",
-    "desc": "Il bordo della torta"
+    "desc": "Il bordo della torta",
+    "colorId": "n53"
   },
   {
     "name": "tableCakeFlat",
-    "desc": "La parte piana della torta"
+    "desc": "La parte piana della torta",
+    "colorId": "n22"
   },
   {
     "name": "coupleMan",
-    "desc": "L'omino della coppia"
+    "desc": "L'omino della coppia",
+    "colorId": "n4"
   },
   {
     "name": "coupleWoman",
-    "desc": "La donna della coppia"
+    "desc": "La donna della coppia",
+    "colorId": "n4"
   },
   {
     "name": "coupleScarf",
-    "desc": "La sciarpa della coppia"
+    "desc": "La sciarpa della coppia",
+    "colorId": "n16"
   },
   {
     "name": "coupleHat",
-    "desc": "Il cappello della coppia"
+    "desc": "Il cappello della coppia",
+    "colorId": "n42"
   }
 ]

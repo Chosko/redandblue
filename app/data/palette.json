@@ -267,6 +267,16 @@
           "editable": true
         }
       ]
+    },
+    "down": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#EAE0AD",
+          "id": "n53",
+          "editable": true
+        }
+      ]
     }
   },
   {
