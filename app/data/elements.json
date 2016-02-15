@@ -550,5 +550,21 @@
   {
     "name": "tableCakeFlat",
     "desc": "La parte piana della torta"
+  },
+  {
+    "name": "coupleMan",
+    "desc": "L'omino della coppia"
+  },
+  {
+    "name": "coupleWoman",
+    "desc": "La donna della coppia"
+  },
+  {
+    "name": "coupleScarf",
+    "desc": "La sciarpa della coppia"
+  },
+  {
+    "name": "coupleHat",
+    "desc": "Il cappello della coppia"
   }
 ]
