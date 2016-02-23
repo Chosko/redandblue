@@ -137,7 +137,7 @@
   {
     "name": "scooterManBody",
     "desc": "Il corpo dell'omino dello scooter (la maglia)",
-    "colorId": "n13"
+    "colorId": "n72"
   },
   {
     "name": "scooterManHelmet",
@@ -177,7 +177,7 @@
   {
     "name": "scooterManHands",
     "desc": "Le mani dell'omino dello scooter",
-    "colorId": "n42"
+    "colorId": "n70"
   },
   {
     "name": "scooterBlinker",
