@@ -1,5 +1,10 @@
 [
   {
+    "name": "redandblueTitle",
+    "colorId": "n6",
+    "desc": "Titolo di giorno"
+  },
+  {
     "name": "skyNight",
     "colorId": "n1",
     "desc": "Il cielo di notte"
@@ -127,17 +132,17 @@
   {
     "name": "scooterManLegs",
     "desc": "Le gambe dell'omino dello scooter",
-    "colorId": "n42"
+    "colorId": "n70"
   },
   {
     "name": "scooterManBody",
     "desc": "Il corpo dell'omino dello scooter (la maglia)",
-    "colorId": "n42"
+    "colorId": "n13"
   },
   {
     "name": "scooterManHelmet",
     "desc": "Il casco dell'omino dello scooter",
-    "colorId": "n4"
+    "colorId": "n66"
   },
   {
     "name": "scooterManVisor",
@@ -147,7 +152,7 @@
   {
     "name": "scooterManScarf",
     "desc": "La sciarpa dell'omino dello scooter",
-    "colorId": "n4"
+    "colorId": "n70"
   },
   {
     "name": "scooterSuspensions",
@@ -202,17 +207,17 @@
   {
     "name": "carBody1",
     "desc": "La carrozzeria della macchina (1)",
-    "colorId": "n12"
+    "colorId": "n64"
   },
   {
     "name": "carBody2",
     "desc": "La carrozzeria della macchina (2)",
-    "colorId": "n11"
+    "colorId": "n10"
   },
   {
     "name": "carBody3",
     "desc": "La carrozzeria della macchina (3)",
-    "colorId": "n10"
+    "colorId": "n8"
   },
   {
     "name": "carStops",
@@ -237,7 +242,7 @@
   {
     "name": "carMirror",
     "desc": "Lo specchietto della macchina",
-    "colorId": "n11"
+    "colorId": "n64"
   },
   {
     "name": "carWheelTires",
@@ -247,7 +252,7 @@
   {
     "name": "carWheelRim",
     "desc": "I cerchioni delle ruote della macchina",
-    "colorId": "n11"
+    "colorId": "n12"
   },
   {
     "name": "churchSpire",
@@ -333,6 +338,16 @@
     "name": "grassBackground",
     "desc": "L'erba sullo sfondo",
     "colorId": "n20"
+  },
+  {
+    "name": "dirtRoadBackground",
+    "desc": "La strada sterrata",
+    "colorId": "n23"
+  },
+  {
+    "name": "dirtRoadPebble",
+    "desc": "Le pietroline sulla strada sterrata",
+    "colorId": "n24"
   },
   {
     "name": "roadBackground",
@@ -555,13 +570,8 @@
     "colorId": "n22"
   },
   {
-    "name": "coupleMan",
-    "desc": "L'omino della coppia",
-    "colorId": "n4"
-  },
-  {
-    "name": "coupleWoman",
-    "desc": "La donna della coppia",
+    "name": "couple",
+    "desc": "La coppia",
     "colorId": "n4"
   },
   {
@@ -572,7 +582,7 @@
   {
     "name": "coupleHat",
     "desc": "Il cappello della coppia",
-    "colorId": "n42"
+    "colorId": "n66"
   },
   {
     "name": "churchSquare",
@@ -613,5 +623,205 @@
     "name": "churchSquareVaseStroke",
     "desc": "Il bordo dei vasi della piazza della chiesa",
     "colorId": "n33"
+  },
+  {
+    "name": "footerGround",
+    "desc": "Terreno footer",
+    "colorId": "n1"
+  },
+  {
+    "name": "footerBackground",
+    "desc": "Sfondo footer",
+    "colorId": "n3"
+  },
+  {
+    "name": "creditsBackground",
+    "desc": "Sfondo credits",
+    "colorId": "n1"
+  },
+  {
+    "name": "pylonFront",
+    "desc": "La parte frontale dei piloni",
+    "colorId": "n53"
+  },
+  {
+    "name": "pylonTop",
+    "desc": "La parte superiore dei piloni",
+    "colorId": "n22"
+  },
+  {
+    "name": "pylonShadow",
+    "desc": "L'ombra dei piloni",
+    "colorId": "n23"
+  },
+  {
+    "name": "berroniSquare",
+    "desc": "Il piazzale di fronte alla tenuta Berroni",
+    "colorId": "n23"
+  },
+  {
+    "name": "berroniCentralWindows",
+    "desc": "Le finestre centrali della tenuta",
+    "colorId": "n11"
+  },
+  {
+    "name": "berroniCentralWindowsStroke",
+    "desc": "Il tracciato delle finestre centrali della tenuta",
+    "colorId": "n10"
+  },
+  {
+    "name": "berroniDoors",
+    "desc": "Le porte della tenuta",
+    "colorId": "n17"
+  },
+  {
+    "name": "berroniFront",
+    "desc": "La facciata della tenuta",
+    "colorId": "n22"
+  },
+  {
+    "name": "berroniFrontColumns",
+    "desc": "Le colonne della facciata della tenuta",
+    "colorId": "n23"
+  },
+  {
+    "name": "berroniFrontCornice",
+    "desc": "I cornicioni della facciata della tenuta",
+    "colorId": "n24"
+  },
+  {
+    "name": "berroniRoofFront",
+    "desc": "La parte frontale del tetto della tenuta",
+    "colorId": "n18"
+  },
+  {
+    "name": "berroniRoofFront2",
+    "desc": "La La parte centrale e frontale del tetto della tenuta",
+    "colorId": "n53"
+  },
+  {
+    "name": "berroniRoofFront3",
+    "desc": "La parte centrale e frontale del tetto della tenuta",
+    "colorId": "n24"
+  },
+  {
+    "name": "berroniRoofFront4",
+    "desc": "La parte centrale e frontale del tetto della tenuta",
+    "colorId": "n24"
+  },
+  {
+    "name": "berroniRoofFrontEllipse",
+    "desc": "La piccola ellisse che c'è al centro della parte frontale del tetto della tenuta",
+    "colorId": "n22"
+  },
+  {
+    "name": "berroniRoofSpire",
+    "desc": "Le guglie sul tetto della tenuta",
+    "colorId": "n18"
+  },
+  {
+    "name": "berroniRoofTopCentral",
+    "desc": "La parte superiore del tetto della tenuta, nella zona centrale",
+    "colorId": "n19"
+  },
+  {
+    "name": "berroniRoofTopLateral",
+    "desc": "La parte superiore del tetto della tenuta, nelle zone laterali",
+    "colorId": "n17"
+  },
+  {
+    "name": "berroniTopWindowsExternalCornice",
+    "desc": "La parte che incornicia più esternamente le finestre dell'ultimo piano della tenuta",
+    "colorId": "n24"
+  },
+  {
+    "name": "berroniWindows",
+    "desc": "Le finestre della tenuta",
+    "colorId": "n7"
+  },
+  {
+    "name": "berroniWindowsLight",
+    "desc": "Le finestre accese della tenuta",
+    "colorId": "n60"
+  },
+  {
+    "name": "berroniWindowsCornice",
+    "desc": "Le cornici delle finestre della tenuta",
+    "colorId": "n23"
+  },
+  {
+    "name": "lampLightRedExternalGlow",
+    "desc": "Il bagliore più esterno del lampione rosso",
+    "colorId": "n59"
+  },
+  {
+    "name": "lampLightRedInternalGlow",
+    "desc": "Il bagliore più interno del lampione rosso",
+    "colorId": "n58"
+  },
+  {
+    "name": "lampLightBlueExternalGlow",
+    "desc": "Il bagliore più esterno del lampione blu",
+    "colorId": "n55"
+  },
+  {
+    "name": "lampLightBlueInternalGlow",
+    "desc": "Il bagliore più interno del lampione blu",
+    "colorId": "n56"
+  },
+  {
+    "name": "lampLightBlue",
+    "desc": "La luce del lampione blu",
+    "colorId": "n54"
+  },
+  {
+    "name": "lampLightRed",
+    "desc": "La luce del lampione rosso",
+    "colorId": "n57"
+  },
+  {
+    "name": "lamp",
+    "desc": "Il palo del lampione",
+    "colorId": "n1"
+  },
+  {
+    "name": "bodyCandle",
+    "desc": "Corpo della candela",
+    "colorId": "n53"
+  },
+  {
+    "name": "internalFlame",
+    "desc": "Colore interno della fiamma",
+    "colorId": "n37"
+  },
+  {
+    "name": "externalFlame",
+    "desc": "Colore esterno della fiamma",
+    "colorId": "n53"
+  },
+  {
+    "name": "bottomCandle",
+    "desc": "Vestitino della candela",
+    "colorId": "n22"
+  },
+  {
+    "name": "borderCircleTopCandle",
+    "desc": "Ellisse sopra la candela",
+    "colorId": "n53"
+  },
+  {
+    "name": "borderCircleTopCandleStroke",
+    "desc": "Bordo del top della candela",
+    "colorId": "n37"
+  },
+  {
+    "name": "bodyCandleStroke",
+    "desc": "Bordo della candela",
+    "colorId": "n37"
+  },
+  {
+    "name": "moonGlow",
+    "desc": "Bagliore della luna",
+    "colorId": "n62"
   }
 ]

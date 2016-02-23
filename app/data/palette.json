@@ -12,7 +12,7 @@
           "editable": true
         },
         {
-          "color": "#00001e",
+          "color": "rgb(0,0,30)",
           "id": "n3",
           "editable": true
         },
@@ -75,6 +75,16 @@
               }
             ]
           }
+        },
+        {
+          "color": "#142038",
+          "id": "n52",
+          "editable": true
+        },
+        {
+          "color": "#0D0DAA",
+          "id": "n66",
+          "editable": true
         }
       ]
     }
@@ -107,6 +117,21 @@
       "type": "custom",
       "elements": [
         {
+          "color": "#181717",
+          "id": "n68",
+          "editable": true
+        },
+        {
+          "color": "#2C343B",
+          "id": "n70",
+          "editable": true
+        },
+        {
+          "color": "#1a242c",
+          "id": "n72",
+          "editable": true
+        },
+        {
           "color": "#939393",
           "id": "n10",
           "editable": true
@@ -124,6 +149,11 @@
         {
           "color": "#535353",
           "id": "n13",
+          "editable": true
+        },
+        {
+          "color": "#ffffff",
+          "id": "n64",
           "editable": true
         }
       ]
@@ -265,6 +295,11 @@
           "color": "#AF9F84",
           "id": "n24",
           "editable": true
+        },
+        {
+          "color": "rgba(242, 237, 204, 0.05)",
+          "id": "n62",
+          "editable": true
         }
       ]
     },
@@ -282,6 +317,61 @@
   {
     "color": "#DB8C23",
     "id": "n37",
-    "editable": true
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#F6F1D5",
+          "id": "n60",
+          "editable": true
+        }
+      ]
+    }
+  },
+  {
+    "color": "#9BA0CE",
+    "id": "n54",
+    "editable": true,
+    "right": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "rgba(88, 104, 148,0.4)",
+          "id": "n56",
+          "editable": true
+        },
+        {
+          "color": "rgba(88, 104, 148,0.1)",
+          "id": "n55",
+          "editable": true
+        }
+      ]
+    },
+    "down": {
+      "type": "custom",
+      "elements": [
+        {
+          "color": "#F3ABAE",
+          "id": "n57",
+          "editable": true,
+          "right": {
+            "type": "custom",
+            "elements": [
+              {
+                "color": "rgba(136, 103, 135, 0.4)",
+                "id": "n58",
+                "editable": true
+              },
+              {
+                "color": "rgba(136, 103, 135, 0.1)",
+                "id": "n59",
+                "editable": true
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
 ]
