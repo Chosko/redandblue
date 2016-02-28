@@ -823,5 +823,10 @@
     "name": "moonGlow",
     "desc": "Bagliore della luna",
     "colorId": "n62"
+  },
+  {
+    "name": "pylonBodyShadow",
+    "desc": "Ombra corpo pilone",
+    "colorId": "n24"
   }
 ]

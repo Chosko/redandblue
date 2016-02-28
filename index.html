@@ -1,3 +1,277 @@
-<!doctype html><html ng-app="redandblue"><head><meta charset="utf-8"><title>redandblue</title><meta name="description" content=""><meta name="viewport" content="width=device-width"><base href="/"><link rel="stylesheet" href="styles/vendor-7cf315ea02.css"><link rel="stylesheet" href="styles/app-2468c791ac.css"></head><body><!--[if lt IE 10]>
+<!doctype html><html ng-app="redandblue"><head><meta charset="utf-8"><title>redandblue</title><meta name="description" content=""><meta name="viewport" content="width=device-width"><base href="/"></head><body><!--[if lt IE 10]>
  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
- <![endif]--><div ui-view=""></div><script src="scripts/vendor-af2b7f6f16.js"></script><script src="scripts/app-0e8ccc7643.js"></script></body></html>
+ <![endif]--><div ui-view=""></div><div class="app-loading" ng-animate-children=""><style type="text/css">
+        body{
+          margin: 0;
+        }
+        #loader-scene {
+          background-color: #0f1026;
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          text-align: center;
+        }
+        #loader-scene .svg-container {
+          display: inline-block;
+        }
+        #loader-scene .loading-text {
+          color: #dcd7be; }
+        #loader-scene #moon-group {
+          -webkit-transform-origin: center;
+                  transform-origin: center;
+          -webkit-transition: -webkit-transform 0.8s;
+          transition: transform 0.8s; }
+        #loader-scene #moon {
+          -webkit-transform-origin: center;
+                  transform-origin: center;
+          fill: #f2edcc;
+          -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+                  transition: transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+          #loader-scene #moon.loaded {
+            -webkit-transform: scale(1);
+                    transform: scale(1); }
+        #loader-scene #moon-glow-internal {
+          -webkit-transform-origin: center;
+                  transform-origin: center;
+          fill: rgba(242, 237, 204, 0.2);
+          -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+                  transition: transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          -webkit-transition-delay: .3s;
+                  transition-delay: .3s;
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+          #loader-scene #moon-glow-internal.loaded {
+            -webkit-transform: scale(1);
+                    transform: scale(1); }
+        #loader-scene #moon-glow-external {
+          -webkit-transform-origin: center;
+                  transform-origin: center;
+          fill: rgba(242, 237, 204, 0.05);
+          -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
+                  transition: transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
+          -webkit-transition-delay: .6s;
+                  transition-delay: .6s;
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+          #loader-scene #moon-glow-external.loaded {
+            -webkit-transform: scale(1);
+                    transform: scale(1); }
+        #loader-scene .moon-craters {
+          -webkit-transform-origin: center;
+                  transform-origin: center;
+          fill: #dcd7be;
+          -webkit-duration: 2s;
+          -moz-duration: 2s;
+          -webkit-animation-duration: 2s;
+                  animation-duration: 2s;
+          -webkit-transition: -webkit-transform 0.8s;
+          transition: transform 0.8s; }
+        #loader-scene #crater1, #loader-scene #crater2, #loader-scene #crater3 {
+          -webkit-transform: scale(2);
+                  transform: scale(2);
+          -webkit-transform-origin: center;
+                  transform-origin: center;
+          -webkit-transition: -webkit-transform 0.8s;
+          transition: transform 0.8s; }
+        #loader-scene #crater1.loaded {
+          -webkit-transform: scale(7);
+                  transform: scale(7); }
+        #loader-scene #crater2.loaded {
+          -webkit-transform: scale(12);
+                  transform: scale(12); }
+        #loader-scene #crater3.loaded {
+          -webkit-transform: scale(9);
+                  transform: scale(9); }
+        #loader-scene .stop-animations {
+          -webkit-animation: none !important;
+          animation: none !important; }
+        #loader-scene .rotation-animation {
+          -webkit-animation-name: rotation-animation-frames;
+          -webkit-animation-duration: 2s;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: linear;
+          -webkit-animation-direction: normal;
+          -moz-animation-name: rotation-animation-frames;
+          -moz-animation-duration: 2s;
+          -moz-animation-iteration-count: infinite;
+          -moz-animation-timing-function: linear;
+          -moz-animation-direction: normal;
+          -o-animation-name: rotation-animation-frames;
+          -o-animation-duration: 2s;
+          -o-animation-iteration-count: infinite;
+          -o-animation-timing-function: linear;
+          -o-animation-direction: normal;
+          -webkit-animation-name: rotation-animation-frames;
+                  animation-name: rotation-animation-frames;
+          -webkit-animation-duration: 2s;
+                  animation-duration: 2s;
+          -webkit-animation-iteration-count: infinite;
+                  animation-iteration-count: infinite;
+          -webkit-animation-timing-function: linear;
+                  animation-timing-function: linear;
+          -webkit-animation-direction: normal;
+                  animation-direction: normal; }
+
+        @-webkit-keyframes rotation-animation-frames {
+          0% {
+            -webkit-transform: rotate(0deg);
+                    transform: rotate(0deg); }
+          100% {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg); } }
+
+        @keyframes rotation-animation-frames {
+          0% {
+            -webkit-transform: rotate(0deg);
+                    transform: rotate(0deg); }
+          100% {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg); } }
+          #loader-scene .crater-animation {
+            -webkit-animation-name: crater-animation-frames;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-direction: alternate;
+            -moz-animation-name: crater-animation-frames;
+            -moz-animation-duration: 2s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: ease-in-out;
+            -moz-animation-direction: alternate;
+            -o-animation-name: crater-animation-frames;
+            -o-animation-duration: 2s;
+            -o-animation-iteration-count: infinite;
+            -o-animation-timing-function: ease-in-out;
+            -o-animation-direction: alternate;
+            -webkit-animation-name: crater-animation-frames;
+                    animation-name: crater-animation-frames;
+            -webkit-animation-duration: 2s;
+                    animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+            -webkit-animation-direction: alternate;
+                    animation-direction: alternate; }
+
+        @-webkit-keyframes crater-animation-frames {
+          0% {
+            -webkit-transform: scale(2);
+                    transform: scale(2); }
+          100% {
+            -webkit-transform: scale(10);
+                    transform: scale(10); } }
+
+        @keyframes crater-animation-frames {
+          0% {
+            -webkit-transform: scale(2);
+                    transform: scale(2); }
+          100% {
+            -webkit-transform: scale(10);
+                    transform: scale(10); } }
+          #loader-scene .loading-text-animation {
+            -webkit-animation-name: loading-text-animation-frames;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-direction: alternate;
+            -moz-animation-name: loading-text-animation-frames;
+            -moz-animation-duration: 2s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: ease-in-out;
+            -moz-animation-direction: alternate;
+            -o-animation-name: loading-text-animation-frames;
+            -o-animation-duration: 2s;
+            -o-animation-iteration-count: infinite;
+            -o-animation-timing-function: ease-in-out;
+            -o-animation-direction: alternate;
+            -webkit-animation-name: loading-text-animation-frames;
+                    animation-name: loading-text-animation-frames;
+            -webkit-animation-duration: 2s;
+                    animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+            -webkit-animation-direction: alternate;
+                    animation-direction: alternate; }
+
+        @-webkit-keyframes loading-text-animation-frames {
+          0% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px); }
+          100% {
+            -webkit-transform: translateY(10px);
+                    transform: translateY(10px); } }
+
+        @keyframes loading-text-animation-frames {
+          0% {
+            -webkit-transform: translateY(0px);
+                    transform: translateY(0px); }
+          100% {
+            -webkit-transform: translateY(10px);
+                    transform: translateY(10px); } }
+
+          #loader-scene .scene-element {
+            max-width: 100%; }
+          #loader-scene .scene-element.scene-element-vertical {
+            position: absolute;
+            width: 100%;
+            height: 100%; }
+          #loader-scene .scene-element .scene-element-horizontal {
+            position: relative;
+            display: inline-block; }
+          #loader-scene .scaling-svg-container {
+            position: relative;
+            height: 0;
+            width: 100%;
+            padding: 0;
+            padding-bottom: 100%;
+            /* override this inline for aspect ratio other than square */ }
+          #loader-scene .scaling-svg-container svg {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0; }
+
+          #loader-scene .animation-delay-05 {
+            -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s; }
+
+          #loader-scene .animation-delay-06 {
+            -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; }
+
+          #loader-scene .animation-delay-07 {
+            -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s; }
+
+          #loader-scene .animation-delay-10 {
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
+
+          #loader-scene .animation-delay-20 {
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s; }
+
+            div.m-app-loading div.animated-container {
+                opacity: 1.0 ;
+                transition: opacity linear 1000ms ;
+                -webkit-transition: opacity linear 1000ms ;
+                -moz-transition: opacity linear 1000ms ;
+                -o-transition: opacity linear 1000ms ;
+                -ms-transition: opacity linear 1000ms ;
+            }
+            /* Used to initialize the ng-leave animation state. */
+            div.m-app-loading div.animated-container.ng-leave {
+                opacity: 0 ;
+            }
+            /* Used to set the end properties of the ng-leave animation state. */
+            div.m-app-loading div.animated-container.ng-leave-active {
+                opacity: 0 ;
+            }
+      </style><div class="animated-container"><div id="loader-scene"><div class="scene-element scene-element-vertical" style="margin-top: 16%;"><div class="scene-element-horizontal" style="width: 24%;"><div class="scaling-svg-container" style="padding-bottom: 99.3789%;"><svg viewbox="-48 -48 161 160"><g><circle id="moon-glow-external" cx="32" cy="32" r="75"></circle><circle id="moon-glow-internal" cx="32" cy="32" r="42"></circle></g><g id="moon-group" class="rotation-animation loading-animation" ng-click="vm.autoScroll()"><circle fill="none" cx="32" cy="32" r="32"></circle><circle id="moon" cx="32" cy="32" r="32"></circle><g class="moon-craters scaling-animation loading-animation"><circle id="crater1" class="crater-animation loading-animation" cx="39" cy="12" r="1"></circle><circle id="crater2" class="crater-animation loading-animation animation-delay-10" cx="21" cy="45" r="1"></circle><circle id="crater3" class="crater-animation loading-animation animation-delay-05" cx="14" cy="25" r="1"></circle></g></g></svg></div></div></div><div class="scene-element scene-element-vertical" style="margin-top: 35%;"><div class="scene-element-horizontal" style="width: 95%;"><h2 class="loading-text loading-text-animation ng-scope">caricamento</h2></div></div></div></div></div><link rel="stylesheet" href="styles/vendor-7cf315ea02.css"><link rel="stylesheet" href="styles/app-8d10dcbd39.css"><script src="scripts/vendor-af2b7f6f16.js"></script><script src="scripts/app-5097816a01.js"></script></body></html>
