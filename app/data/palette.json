@@ -77,7 +77,7 @@
           }
         },
         {
-          "color": "#142038",
+          "color": "#121D33",
           "id": "n52",
           "editable": true
         },
@@ -280,14 +280,14 @@
     "editable": true
   },
   {
-    "color": "#f2edcc",
+    "color": "#F4EEC3",
     "id": "n22",
     "editable": true,
     "right": {
       "type": "custom",
       "elements": [
         {
-          "color": "#dcd7be",
+          "color": "#E0D8B5",
           "id": "n23",
           "editable": true
         },

@@ -6,7 +6,7 @@
   },
   {
     "name": "skyNight",
-    "colorId": "n1",
+    "colorId": "n52",
     "desc": "Il cielo di notte"
   },
   {
@@ -52,7 +52,7 @@
   {
     "name": "cloudsNight",
     "desc": "Le nuvole di notte",
-    "colorId": "n1"
+    "colorId": "n52"
   },
   {
     "name": "sunNight",
