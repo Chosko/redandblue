@@ -22,75 +22,154 @@
         }
         #loader-scene #moon-group {
           -webkit-transform-origin: center;
-                  transform-origin: center;
+          -moz-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+
           -webkit-transition: -webkit-transform 0.8s;
-          transition: transform 0.8s; }
+          -moz-transition: -moz-transform 0.8s;
+          -o-transition: -o-transform 0.8s;
+          transition: transform 0.8s;
+        }
         #loader-scene #moon {
-          -webkit-transform-origin: center;
-                  transform-origin: center;
           fill: #F4EEC3;
+
+          -webkit-transform-origin: center;
+          -moz-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+
           -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
-                  transition: transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          -moz-transition: -moz-transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          -o-transition: -o-transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          transition: transform 0.8s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+
           -webkit-transform: scale(0);
-                  transform: scale(0); }
-          #loader-scene #moon.loaded {
-            -webkit-transform: scale(1);
-                    transform: scale(1); }
+          -moz-transform: scale(0);
+          -o-transform: scale(0);
+          transform: scale(0);
+        }
+        #loader-scene #moon.loaded {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
         #loader-scene #moon-glow-internal {
-          -webkit-transform-origin: center;
-                  transform-origin: center;
           fill: rgba(242, 237, 204, 0.2);
+
+          -webkit-transform-origin: center;
+          -moz-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+
           -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
-                  transition: transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          -moz-transition: -moz-transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          -o-transition: -o-transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+          transition: transform 0.5s cubic-bezier(0.6, 0.005, 0.265, 1.55);
+
           -webkit-transition-delay: .3s;
-                  transition-delay: .3s;
+          -moz-transition-delay: .3s;
+          -o-transition-delay: .3s;
+          transition-delay: .3s;
+
           -webkit-transform: scale(0);
-                  transform: scale(0); }
-          #loader-scene #moon-glow-internal.loaded {
-            -webkit-transform: scale(1);
-                    transform: scale(1); }
+          -moz-transform: scale(0);
+          -o-transform: scale(0);
+          transform: scale(0);
+        }
+        #loader-scene #moon-glow-internal.loaded {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
         #loader-scene #moon-glow-external {
-          -webkit-transform-origin: center;
-                  transform-origin: center;
           fill: rgba(242, 237, 204, 0.05);
-          -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
-                  transition: transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
-          -webkit-transition-delay: .6s;
-                  transition-delay: .6s;
-          -webkit-transform: scale(0);
-                  transform: scale(0); }
-          #loader-scene #moon-glow-external.loaded {
-            -webkit-transform: scale(1);
-                    transform: scale(1); }
-        #loader-scene .moon-craters {
+
           -webkit-transform-origin: center;
-                  transform-origin: center;
+          -moz-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+
+          -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
+          -moz-transition: -moz-transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
+          -o-transition: -o-transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
+          transition: transform 0.5s cubic-bezier(0.6, 0.005, 0.25, 1.335);
+
+          -webkit-transition-delay: .6s;
+          -moz-transition-delay: .6s;
+          -o-transition-delay: .6s;
+          transition-delay: .6s;
+
+          -webkit-transform: scale(0);
+          -moz-transform: scale(0);
+          -o-transform: scale(0);
+          transform: scale(0);
+        }
+        #loader-scene #moon-glow-external.loaded {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+        #loader-scene .moon-craters {
           fill: #E0D8B5;
-          -webkit-duration: 2s;
-          -moz-duration: 2s;
+          -webkit-transform-origin: center;
+          -moz-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+
           -webkit-animation-duration: 2s;
-                  animation-duration: 2s;
+          -moz-animation-duration: 2s;
+          -o-animation-duration: 2s;
+          animation-duration: 2s;
+
           -webkit-transition: -webkit-transform 0.8s;
-          transition: transform 0.8s; }
+          -moz-transition: -moz-transform 0.8s;
+          -o-transition: -o-transform 0.8s;
+          transition: transform 0.8s;
+        }
         #loader-scene #crater1, #loader-scene #crater2, #loader-scene #crater3 {
           -webkit-transform: scale(2);
-                  transform: scale(2);
+          -moz-transform: scale(2);
+          -o-transform: scale(2);
+          transform: scale(2);
+
           -webkit-transform-origin: center;
-                  transform-origin: center;
+          -moz-transform-origin: center;
+          -o-transform-origin: center;
+          transform-origin: center;
+
           -webkit-transition: -webkit-transform 0.8s;
-          transition: transform 0.8s; }
+          -moz-transition: -moz-transform 0.8s;
+          -o-transition: -o-transform 0.8s;
+          transition: transform 0.8s;
+        }
         #loader-scene #crater1.loaded {
           -webkit-transform: scale(7);
-                  transform: scale(7); }
+          -moz-transform: scale(7);
+          -o-transform: scale(7);
+          transform: scale(7);
+        }
         #loader-scene #crater2.loaded {
           -webkit-transform: scale(12);
-                  transform: scale(12); }
+          -moz-transform: scale(12);
+          -o-transform: scale(12);
+          transform: scale(12);
+        }
         #loader-scene #crater3.loaded {
           -webkit-transform: scale(9);
-                  transform: scale(9); }
+          -moz-transform: scale(9);
+          -o-transform: scale(9);
+          transform: scale(9);
+        }
         #loader-scene .stop-animations {
           -webkit-animation: none !important;
-          animation: none !important; }
+          -moz-animation: none !important;
+          -o-animation: none !important;
+          animation: none !important;
+        }
         #loader-scene .rotation-animation {
           -webkit-animation-name: rotation-animation-frames;
           -webkit-animation-duration: 2s;
@@ -107,174 +186,257 @@
           -o-animation-iteration-count: infinite;
           -o-animation-timing-function: linear;
           -o-animation-direction: normal;
-          -webkit-animation-name: rotation-animation-frames;
-                  animation-name: rotation-animation-frames;
-          -webkit-animation-duration: 2s;
-                  animation-duration: 2s;
-          -webkit-animation-iteration-count: infinite;
-                  animation-iteration-count: infinite;
-          -webkit-animation-timing-function: linear;
-                  animation-timing-function: linear;
-          -webkit-animation-direction: normal;
-                  animation-direction: normal; }
+          animation-name: rotation-animation-frames;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+          animation-direction: normal;
+        }
 
         @-webkit-keyframes rotation-animation-frames {
           0% {
             -webkit-transform: rotate(0deg);
-                    transform: rotate(0deg); }
+            transform: rotate(0deg);
+          }
           100% {
             -webkit-transform: rotate(360deg);
-                    transform: rotate(360deg); } }
+            transform: rotate(360deg);
+          }
+        }
+
+        @-moz-keyframes rotation-animation-frames {
+          0% {
+            -moz-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          100% {
+            -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+
+        @-o-keyframes rotation-animation-frames {
+          0% {
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          100% {
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
 
         @keyframes rotation-animation-frames {
           0% {
             -webkit-transform: rotate(0deg);
-                    transform: rotate(0deg); }
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
           100% {
             -webkit-transform: rotate(360deg);
-                    transform: rotate(360deg); } }
-          #loader-scene .crater-animation {
-            -webkit-animation-name: crater-animation-frames;
-            -webkit-animation-duration: 2s;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: ease-in-out;
-            -webkit-animation-direction: alternate;
-            -moz-animation-name: crater-animation-frames;
-            -moz-animation-duration: 2s;
-            -moz-animation-iteration-count: infinite;
-            -moz-animation-timing-function: ease-in-out;
-            -moz-animation-direction: alternate;
-            -o-animation-name: crater-animation-frames;
-            -o-animation-duration: 2s;
-            -o-animation-iteration-count: infinite;
-            -o-animation-timing-function: ease-in-out;
-            -o-animation-direction: alternate;
-            -webkit-animation-name: crater-animation-frames;
-                    animation-name: crater-animation-frames;
-            -webkit-animation-duration: 2s;
-                    animation-duration: 2s;
-            -webkit-animation-iteration-count: infinite;
-                    animation-iteration-count: infinite;
-            -webkit-animation-timing-function: ease-in-out;
-                    animation-timing-function: ease-in-out;
-            -webkit-animation-direction: alternate;
-                    animation-direction: alternate; }
+            -moz-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+        #loader-scene .crater-animation {
+          -webkit-animation-name: crater-animation-frames;
+          -webkit-animation-duration: 2s;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: ease-in-out;
+          -webkit-animation-direction: alternate;
+          -moz-animation-name: crater-animation-frames;
+          -moz-animation-duration: 2s;
+          -moz-animation-iteration-count: infinite;
+          -moz-animation-timing-function: ease-in-out;
+          -moz-animation-direction: alternate;
+          -o-animation-name: crater-animation-frames;
+          -o-animation-duration: 2s;
+          -o-animation-iteration-count: infinite;
+          -o-animation-timing-function: ease-in-out;
+          -o-animation-direction: alternate;
+          animation-name: crater-animation-frames;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+        }
 
         @-webkit-keyframes crater-animation-frames {
           0% {
             -webkit-transform: scale(2);
-                    transform: scale(2); }
+            transform: scale(2);
+          }
           100% {
             -webkit-transform: scale(10);
-                    transform: scale(10); } }
+            transform: scale(10);
+          }
+        }
+
+        @-moz-keyframes crater-animation-frames {
+          0% {
+            -moz-transform: scale(2);
+            transform: scale(2);
+          }
+          100% {
+            -moz-transform: scale(10);
+            transform: scale(10);
+          }
+        }
+
+        @-o-keyframes crater-animation-frames {
+          0% {
+            -o-transform: scale(2);
+            transform: scale(2);
+          }
+          100% {
+            -o-transform: scale(10);
+            transform: scale(10);
+          }
+        }
 
         @keyframes crater-animation-frames {
-          0% {
-            -webkit-transform: scale(2);
-                    transform: scale(2); }
-          100% {
-            -webkit-transform: scale(10);
-                    transform: scale(10); } }
-          #loader-scene .loading-text-animation {
-            -webkit-animation-name: loading-text-animation-frames;
-            -webkit-animation-duration: 2s;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: ease-in-out;
-            -webkit-animation-direction: alternate;
-            -moz-animation-name: loading-text-animation-frames;
-            -moz-animation-duration: 2s;
-            -moz-animation-iteration-count: infinite;
-            -moz-animation-timing-function: ease-in-out;
-            -moz-animation-direction: alternate;
-            -o-animation-name: loading-text-animation-frames;
-            -o-animation-duration: 2s;
-            -o-animation-iteration-count: infinite;
-            -o-animation-timing-function: ease-in-out;
-            -o-animation-direction: alternate;
-            -webkit-animation-name: loading-text-animation-frames;
-                    animation-name: loading-text-animation-frames;
-            -webkit-animation-duration: 2s;
-                    animation-duration: 2s;
-            -webkit-animation-iteration-count: infinite;
-                    animation-iteration-count: infinite;
-            -webkit-animation-timing-function: ease-in-out;
-                    animation-timing-function: ease-in-out;
-            -webkit-animation-direction: alternate;
-                    animation-direction: alternate; }
+          0% { transform: scale(2); }
+          100% { transform: scale(10); }
+        }
+
+        #loader-scene .loading-text-animation {
+          -webkit-animation-name: loading-text-animation-frames;
+          -webkit-animation-duration: 2s;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-timing-function: ease-in-out;
+          -webkit-animation-direction: alternate;
+          -moz-animation-name: loading-text-animation-frames;
+          -moz-animation-duration: 2s;
+          -moz-animation-iteration-count: infinite;
+          -moz-animation-timing-function: ease-in-out;
+          -moz-animation-direction: alternate;
+          -o-animation-name: loading-text-animation-frames;
+          -o-animation-duration: 2s;
+          -o-animation-iteration-count: infinite;
+          -o-animation-timing-function: ease-in-out;
+          -o-animation-direction: alternate;
+          animation-name: loading-text-animation-frames;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+        }
 
         @-webkit-keyframes loading-text-animation-frames {
           0% {
             -webkit-transform: translateY(0px);
-                    transform: translateY(0px); }
+            transform: translateY(0px);
+          }
           100% {
             -webkit-transform: translateY(10px);
-                    transform: translateY(10px); } }
+            transform: translateY(10px);
+          }
+        }
+
+        @-moz-keyframes loading-text-animation-frames {
+          0% {
+            -moz-transform: translateY(0px);
+            transform: translateY(0px);
+          }
+          100% {
+            -moz-transform: translateY(10px);
+            transform: translateY(10px);
+          }
+        }
+
+        @-o-keyframes loading-text-animation-frames {
+          0% {
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+          }
+          100% {
+            -o-transform: translateY(10px);
+            transform: translateY(10px);
+          }
+        }
 
         @keyframes loading-text-animation-frames {
-          0% {
-            -webkit-transform: translateY(0px);
-                    transform: translateY(0px); }
-          100% {
-            -webkit-transform: translateY(10px);
-                    transform: translateY(10px); } }
+          0% { transform: translateY(0px); }
+          100% { transform: translateY(10px); }
+        }
 
-          #loader-scene .scene-element {
-            max-width: 100%; }
-          #loader-scene .scene-element.scene-element-vertical {
-            position: absolute;
-            width: 100%;
-            height: 100%; }
-          #loader-scene .scene-element .scene-element-horizontal {
-            position: relative;
-            display: inline-block; }
-          #loader-scene .scaling-svg-container {
-            position: relative;
-            height: 0;
-            width: 100%;
-            padding: 0;
-            padding-bottom: 100%;
-            /* override this inline for aspect ratio other than square */ }
-          #loader-scene .scaling-svg-container svg {
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            left: 0;
-            top: 0; }
+        #loader-scene .scene-element {
+          max-width: 100%;
+        }
+        #loader-scene .scene-element.scene-element-vertical {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+        }
+        #loader-scene .scene-element .scene-element-horizontal {
+          position: relative;
+          display: inline-block;
+        }
+        #loader-scene .scaling-svg-container {
+          position: relative;
+          height: 0;
+          width: 100%;
+          padding: 0;
+          padding-bottom: 100%;
+        }
+        #loader-scene .scaling-svg-container svg {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+        }
 
-          #loader-scene .animation-delay-05 {
-            -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s; }
+        #loader-scene .animation-delay-05 {
+          -webkit-animation-delay: 0.5s;
+          -moz-animation-delay: 0.5s;
+          -o-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+        }
 
-          #loader-scene .animation-delay-06 {
-            -webkit-animation-delay: 0.6s;
-            animation-delay: 0.6s; }
+        #loader-scene .animation-delay-06 {
+          -webkit-animation-delay: 0.6s;
+          -moz-animation-delay: 0.6s;
+          -o-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+        }
 
-          #loader-scene .animation-delay-07 {
-            -webkit-animation-delay: 0.7s;
-            animation-delay: 0.7s; }
+        #loader-scene .animation-delay-07 {
+          -webkit-animation-delay: 0.7s;
+          -moz-animation-delay: 0.7s;
+          -o-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+        }
 
-          #loader-scene .animation-delay-10 {
-            -webkit-animation-delay: 1s;
-            animation-delay: 1s; }
+        #loader-scene .animation-delay-10 {
+          -webkit-animation-delay: 1s;
+          -moz-animation-delay: 1s;
+          -o-animation-delay: 1s;
+          animation-delay: 1s;
+        }
 
-          #loader-scene .animation-delay-20 {
-            -webkit-animation-delay: 2s;
-            animation-delay: 2s; }
+        #loader-scene .animation-delay-20 {
+          -webkit-animation-delay: 2s;
+          -moz-animation-delay: 2s;
+          -o-animation-delay: 2s;
+          animation-delay: 2s;
+        }
 
-            div.m-app-loading div.animated-container {
-                opacity: 1.0 ;
-                transition: opacity linear 1000ms ;
-                -webkit-transition: opacity linear 1000ms ;
-                -moz-transition: opacity linear 1000ms ;
-                -o-transition: opacity linear 1000ms ;
-                -ms-transition: opacity linear 1000ms ;
-            }
-            /* Used to initialize the ng-leave animation state. */
-            div.m-app-loading div.animated-container.ng-leave {
-                opacity: 0 ;
-            }
-            /* Used to set the end properties of the ng-leave animation state. */
-            div.m-app-loading div.animated-container.ng-leave-active {
-                opacity: 0 ;
-            }
-      </style><div class="animated-container"><div id="loader-scene"><div class="scene-element scene-element-vertical" style="margin-top: 16%;"><div class="scene-element-horizontal" style="width: 24%;"><div class="scaling-svg-container" style="padding-bottom: 99.3789%;"><svg viewbox="-48 -48 161 160"><g><circle id="moon-glow-external" cx="32" cy="32" r="75"></circle><circle id="moon-glow-internal" cx="32" cy="32" r="42"></circle></g><g id="moon-group" class="rotation-animation loading-animation" ng-click="vm.autoScroll()"><circle fill="none" cx="32" cy="32" r="32"></circle><circle id="moon" cx="32" cy="32" r="32"></circle><g class="moon-craters scaling-animation loading-animation"><circle id="crater1" class="crater-animation loading-animation" cx="39" cy="12" r="1"></circle><circle id="crater2" class="crater-animation loading-animation animation-delay-10" cx="21" cy="45" r="1"></circle><circle id="crater3" class="crater-animation loading-animation animation-delay-05" cx="14" cy="25" r="1"></circle></g></g></svg></div></div></div><div class="scene-element scene-element-vertical" style="margin-top: 35%;"><div class="scene-element-horizontal" style="width: 95%;"><h2 class="loading-text loading-text-animation ng-scope visible-xs">Caricamento...</h2></div></div></div></div></div><link rel="stylesheet" href="styles/vendor-7cf315ea02.css"><link rel="stylesheet" href="styles/app-9c8baaf149.css"><script src="scripts/vendor-af2b7f6f16.js"></script><script src="scripts/app-cd0c3c586e.js"></script></body></html>
+        div.m-app-loading div.animated-container {
+          opacity: 1.0 ;
+          -webkit-transition: opacity linear 1000ms ;
+          -moz-transition: opacity linear 1000ms ;
+          -o-transition: opacity linear 1000ms ;
+          transition: opacity linear 1000ms ;
+        }
+        /* Used to initialize the ng-leave animation state. */
+        div.m-app-loading div.animated-container.ng-leave {
+            opacity: 0 ;
+        }
+        /* Used to set the end properties of the ng-leave animation state. */
+        div.m-app-loading div.animated-container.ng-leave-active {
+            opacity: 0 ;
+        }
+      </style><div class="animated-container"><div id="loader-scene"><div class="scene-element scene-element-vertical" style="margin-top: 16%;"><div class="scene-element-horizontal" style="width: 24%;"><div class="scaling-svg-container" style="padding-bottom: 99.3789%;"><svg viewbox="-48 -48 161 160"><g><circle id="moon-glow-external" cx="32" cy="32" r="75"></circle><circle id="moon-glow-internal" cx="32" cy="32" r="42"></circle></g><g id="moon-group" class="rotation-animation loading-animation" ng-click="vm.autoScroll()"><circle fill="none" cx="32" cy="32" r="32"></circle><circle id="moon" cx="32" cy="32" r="32"></circle><g class="moon-craters scaling-animation loading-animation"><circle id="crater1" class="crater-animation loading-animation" cx="39" cy="12" r="1"></circle><circle id="crater2" class="crater-animation loading-animation animation-delay-10" cx="21" cy="45" r="1"></circle><circle id="crater3" class="crater-animation loading-animation animation-delay-05" cx="14" cy="25" r="1"></circle></g></g></svg></div></div></div><div class="scene-element scene-element-vertical" style="margin-top: 35%;"><div class="scene-element-horizontal" style="width: 95%;"><h2 class="loading-text loading-text-animation ng-scope visible-xs">Caricamento...</h2></div></div></div></div></div><link rel="stylesheet" href="styles/vendor-7cf315ea02.css"><link rel="stylesheet" href="styles/app-e0158d3483.css"><script src="scripts/vendor-af2b7f6f16.js"></script><script src="scripts/app-8d31e70825.js"></script></body></html>
